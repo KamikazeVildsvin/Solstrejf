@@ -1,0 +1,2936 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c3f44d79-3772-447c-a0d6-0fa036bea8a0")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 88.9 60.96) (xy 88.9 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "016f4cb4-22f1-49b7-bce0-00067d683122")
+	)
+	(wire
+		(pts
+			(xy 152.4 101.6) (xy 152.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad28490-8e66-43f5-b7f0-be8941e542f8")
+	)
+	(wire
+		(pts
+			(xy 156.21 82.55) (xy 158.75 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1020dd7a-783c-4cd8-8801-8419d8d2ec22")
+	)
+	(wire
+		(pts
+			(xy 152.4 76.2) (xy 152.4 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "170d2419-7f00-4e2e-a79d-09df00facb83")
+	)
+	(wire
+		(pts
+			(xy 92.71 133.35) (xy 95.25 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf6c5ef-76f3-43a3-aeaa-771e8639dd5b")
+	)
+	(wire
+		(pts
+			(xy 152.4 111.76) (xy 152.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "266bab03-638d-4c52-8911-477f9b971c7c")
+	)
+	(wire
+		(pts
+			(xy 215.9 101.6) (xy 215.9 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b328af-2520-41f9-b6f6-addb3fd81461")
+	)
+	(wire
+		(pts
+			(xy 215.9 50.8) (xy 215.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d34de1e-13b3-4a77-8048-50a863014e2e")
+	)
+	(wire
+		(pts
+			(xy 156.21 107.95) (xy 158.75 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3caa3fb3-ce64-4fac-8356-1f85d67ef90c")
+	)
+	(wire
+		(pts
+			(xy 152.4 50.8) (xy 152.4 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40009fff-830f-4dcb-9a3e-b82d49d932b4")
+	)
+	(wire
+		(pts
+			(xy 152.4 137.16) (xy 152.4 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dcb5e79-86a4-4257-bbbb-81ff0241f8a1")
+	)
+	(wire
+		(pts
+			(xy 215.9 86.36) (xy 215.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57429e1e-4581-4f44-9b60-763e70300090")
+	)
+	(wire
+		(pts
+			(xy 88.9 101.6) (xy 88.9 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68efb0f9-cdfd-4309-b7eb-0bab36a0d5a3")
+	)
+	(wire
+		(pts
+			(xy 215.9 137.16) (xy 215.9 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e543b3e-7651-48f5-a683-642a0df2cf1c")
+	)
+	(wire
+		(pts
+			(xy 92.71 82.55) (xy 95.25 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fdefa2a-a2fd-48dc-b782-87e3ae32ba1e")
+	)
+	(wire
+		(pts
+			(xy 219.71 107.95) (xy 222.25 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "704b74a2-a80c-4506-8a6e-9676370a553e")
+	)
+	(wire
+		(pts
+			(xy 215.9 127) (xy 215.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "725cf66b-fad2-4090-b3da-eba0e31b4da4")
+	)
+	(wire
+		(pts
+			(xy 152.4 127) (xy 152.4 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7536252c-32cd-470b-b367-a0e4ac1db335")
+	)
+	(wire
+		(pts
+			(xy 156.21 133.35) (xy 158.75 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ac4ee4a-1297-450b-b871-662640f71e61")
+	)
+	(wire
+		(pts
+			(xy 215.9 60.96) (xy 215.9 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0c7818-145c-497e-8011-31415909ba1a")
+	)
+	(wire
+		(pts
+			(xy 156.21 57.15) (xy 158.75 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8202043e-eccd-4fe1-afe0-cd352c526ef5")
+	)
+	(wire
+		(pts
+			(xy 88.9 76.2) (xy 88.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b3f8c4-0f3d-46ed-84d7-c85473aa137b")
+	)
+	(wire
+		(pts
+			(xy 219.71 133.35) (xy 222.25 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfd21dd-8558-4a38-ac96-a59e15a60682")
+	)
+	(wire
+		(pts
+			(xy 219.71 82.55) (xy 222.25 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04a654b-67e5-48ac-b15e-f6858b275661")
+	)
+	(wire
+		(pts
+			(xy 92.71 57.15) (xy 95.25 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a36b61e1-c6d0-4d35-8011-3270a18877d0")
+	)
+	(wire
+		(pts
+			(xy 88.9 86.36) (xy 88.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b87322dc-1ca3-45c5-80f0-84784d96e47b")
+	)
+	(wire
+		(pts
+			(xy 219.71 57.15) (xy 222.25 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd146d17-633f-4137-b6ea-84191ab4a300")
+	)
+	(wire
+		(pts
+			(xy 152.4 60.96) (xy 152.4 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ca9cd7-a229-4390-b0c9-e52117286ad0")
+	)
+	(wire
+		(pts
+			(xy 88.9 137.16) (xy 88.9 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d467dcc2-edce-41ad-8d44-d3a4d7cd5012")
+	)
+	(wire
+		(pts
+			(xy 88.9 111.76) (xy 88.9 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4c3e0a1-3917-46e4-b6c3-87cbcc3c5f01")
+	)
+	(wire
+		(pts
+			(xy 215.9 76.2) (xy 215.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d57462a6-3dcd-44ed-aa8b-21d7fbfb0664")
+	)
+	(wire
+		(pts
+			(xy 152.4 86.36) (xy 152.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6efe44a-7f4f-489c-9851-4ed69dbbf7c9")
+	)
+	(wire
+		(pts
+			(xy 92.71 107.95) (xy 95.25 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1b90969-789b-4a20-bcb1-e59661004989")
+	)
+	(wire
+		(pts
+			(xy 88.9 127) (xy 88.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed06ba70-323c-4567-bdf9-05d1816e7c9d")
+	)
+	(wire
+		(pts
+			(xy 215.9 111.76) (xy 215.9 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1dc89e8-a702-435f-abbb-65790084f683")
+	)
+	(wire
+		(pts
+			(xy 88.9 50.8) (xy 88.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6f176b3-1cb4-42fd-a8f4-2ce16a97420c")
+	)
+	(rectangle
+		(start 63.5 38.1)
+		(end 114.3 152.4)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 54b34383-0b41-44ed-a092-68e5308dd146)
+	)
+	(rectangle
+		(start 127 38.1)
+		(end 177.8 152.4)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7cc3044e-1bd0-4228-a580-f6915fd57c75)
+	)
+	(rectangle
+		(start 190.5 38.1)
+		(end 241.3 152.4)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ad750872-7b04-49e0-96a9-40830b4d192f)
+	)
+	(text "Pan Modulation"
+		(exclude_from_sim no)
+		(at 215.9 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2133a224-0f54-43cf-bcf8-5b136214a714")
+	)
+	(text "Amplitude Modulation"
+		(exclude_from_sim no)
+		(at 88.9 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "585c9f81-c81b-49d7-b46f-bf1703a19323")
+	)
+	(text "Frequency Modulation"
+		(exclude_from_sim no)
+		(at 152.4 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c73e802a-246d-46d4-b05c-83a6d383507c")
+	)
+	(hierarchical_label "VOICE1"
+		(shape input)
+		(at 215.9 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "006d9a38-36ad-4e7b-b895-9961884e10b4")
+	)
+	(hierarchical_label "VOICE3"
+		(shape input)
+		(at 215.9 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03e7c717-2992-48fb-b216-bba0044afa45")
+	)
+	(hierarchical_label "AMP_OUT4"
+		(shape output)
+		(at 95.25 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "04e71ba2-60ed-41a8-93e6-11adbc06d356")
+	)
+	(hierarchical_label "VOICE2"
+		(shape input)
+		(at 152.4 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07947ffe-f22f-491f-bf5f-2181d6927e5c")
+	)
+	(hierarchical_label "VOICE4"
+		(shape input)
+		(at 88.9 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c8cbf82-a7e9-44d3-80ef-2e11eb412aef")
+	)
+	(hierarchical_label "FREQ_OUT2"
+		(shape output)
+		(at 158.75 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10717a1e-0d64-45c4-8a86-c4658946b975")
+	)
+	(hierarchical_label "PAN_OUT2"
+		(shape output)
+		(at 222.25 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1467d00f-eea5-4b24-86c4-a6c3f6f5b3e5")
+	)
+	(hierarchical_label "AMP_OUT1"
+		(shape output)
+		(at 95.25 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17a2814a-ecef-4862-9fe9-b2f340267ca9")
+	)
+	(hierarchical_label "VOICE2"
+		(shape input)
+		(at 88.9 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4af6fb75-8165-424f-8483-a7fba987a69d")
+	)
+	(hierarchical_label "VOICE1"
+		(shape input)
+		(at 152.4 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51537c94-6eec-4875-946e-d039b9d32e8f")
+	)
+	(hierarchical_label "PAN_OUT3"
+		(shape output)
+		(at 222.25 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "691b583b-65b3-42a2-bc5b-235ae6f0ff95")
+	)
+	(hierarchical_label "FREQ_OUT1"
+		(shape output)
+		(at 158.75 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72f8a386-2dd4-44ab-bab3-c26976d56aaa")
+	)
+	(hierarchical_label "VOICE2"
+		(shape input)
+		(at 215.9 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "777eaf8a-988f-4f0f-8aee-9fc83eacda5b")
+	)
+	(hierarchical_label "FREQ_OUT4"
+		(shape output)
+		(at 158.75 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77a192d2-dddd-4c26-bc45-7080fe8a94e0")
+	)
+	(hierarchical_label "VOICE1"
+		(shape input)
+		(at 88.9 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c0acd46-e77f-4eb6-bb42-3a153bef0187")
+	)
+	(hierarchical_label "VOICE4"
+		(shape input)
+		(at 152.4 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f76267f-780a-41b9-80f3-c832891d5ed2")
+	)
+	(hierarchical_label "VOICE4"
+		(shape input)
+		(at 215.9 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9e0fc52-ec9a-4938-8681-fb5fcd8efe01")
+	)
+	(hierarchical_label "AMP_OUT2"
+		(shape output)
+		(at 95.25 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "adc8fe2f-4920-4a9f-854c-a8d98a3046ab")
+	)
+	(hierarchical_label "VOICE3"
+		(shape input)
+		(at 88.9 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba767b03-a236-4e79-aa77-8d2824113315")
+	)
+	(hierarchical_label "AMP_OUT3"
+		(shape output)
+		(at 95.25 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb3a9d60-21cd-4f6c-bb83-2b49d96dbe01")
+	)
+	(hierarchical_label "PAN_OUT1"
+		(shape output)
+		(at 222.25 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dbe8eb34-21d2-4c3d-aba2-4328298a2eeb")
+	)
+	(hierarchical_label "PAN_OUT4"
+		(shape output)
+		(at 222.25 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc2cd612-9c3a-4d8f-842a-5126dcc17106")
+	)
+	(hierarchical_label "FREQ_OUT3"
+		(shape output)
+		(at 158.75 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e64cb53f-0a1d-4892-ac06-1ed6683b7a81")
+	)
+	(hierarchical_label "VOICE3"
+		(shape input)
+		(at 152.4 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f48ae9ca-94c2-4509-9d5c-8329aec16e19")
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 215.9 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15bdbc95-eaf4-42bb-a6f4-86a2d626bea7")
+		(property "Reference" "RV6"
+			(at 213.36 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 213.36 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+			(at 215.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 215.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f5ce626-5a01-48fe-b72a-56edeb62686e")
+		)
+		(pin "3"
+			(uuid "28d30bcd-ea87-4f58-8f7e-f65d4ef0e2db")
+		)
+		(pin "1"
+			(uuid "23686c3d-ad03-4476-a8bd-9200c6ba0731")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "RV6")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV18")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "RV30")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 88.9 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17ef84da-ee16-4e83-9851-feada2730702")
+		(property "Reference" "RV10"
+			(at 86.36 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 86.36 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a6d07b21-9a5c-4de3-9237-2e890e08b8f9")
+		)
+		(pin "3"
+			(uuid "4c6ba6b8-8f0e-4983-8b98-dad17b9dee48")
+		)
+		(pin "1"
+			(uuid "6d9b1d90-b324-410f-9c94-c8321d5e7ed3")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "RV10")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV22")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "RV34")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 152.4 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18ca6a1e-ef8f-4dc1-b522-a9eabce090fd")
+		(property "Reference" "RV11"
+			(at 149.86 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 149.86 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+			(at 152.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 152.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff2d58f6-498f-4bbc-9886-c06540a74cad")
+		)
+		(pin "3"
+			(uuid "07fc30d5-86aa-412a-a07e-f0e49f372102")
+		)
+		(pin "1"
+			(uuid "c5fc168e-e57e-46d5-af00-913ee5c5e094")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "RV11")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV23")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "RV35")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 152.4 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b31d559-9d91-4cbb-b3ac-7d921870f714")
+		(property "Reference" "RV8"
+			(at 149.86 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 149.86 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+			(at 152.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 152.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f39b726b-bcfc-4bd8-94cf-94322f44c219")
+		)
+		(pin "3"
+			(uuid "6e8de424-bcbd-4ded-a62d-10fab3225f22")
+		)
+		(pin "1"
+			(uuid "78ee3b01-cd10-4b2e-b266-8429022f4610")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "RV8")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV20")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "RV32")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e274130-7650-4c85-bec7-4c2a9435e795")
+		(property "Reference" "#PWR012"
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55f7c287-338f-428f-bdec-bab14228e6b4")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR024")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "#PWR036")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 215.9 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20372aea-cb07-4e22-8558-07f9af145c5d")
+		(property "Reference" "RV3"
+			(at 213.36 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 213.36 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+			(at 215.9 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 215.9 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c7ba157-4dad-499d-bccc-0cfdf3cae668")
+		)
+		(pin "3"
+			(uuid "fa0e749d-5f47-4ca5-b681-b65a873e9a2e")
+		)
+		(pin "1"
+			(uuid "71d20b4e-cfd2-4746-b6a7-36b47eb76ae9")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "RV3")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV15")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "RV27")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2487aae3-fe86-4a9e-88c5-ec628227cb64")
+		(property "Reference" "#PWR05"
+			(at 152.4 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7329056e-8e19-4ac0-ade4-7ff7d636af8e")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR023")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "292a9a69-d196-487f-9837-e3fb0d042923")
+		(property "Reference" "#PWR06"
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8367505c-c0fc-47c8-8bd7-c60e3aa271e7")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "#PWR032")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 215.9 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b1a2862-f3cd-451c-8ced-f1e7136b784c")
+		(property "Reference" "RV9"
+			(at 213.36 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 213.36 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+			(at 215.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 215.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7bd6167f-e3da-4280-8343-8c826a813a49")
+		)
+		(pin "3"
+			(uuid "9aa925bc-dc4a-4a0d-bda5-0250ba394b7d")
+		)
+		(pin "1"
+			(uuid "7bc367a8-3645-4263-bef6-e375befd9807")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "RV9")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV21")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "RV33")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 88.9 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2eff1717-509b-4bf1-8db8-47dddad1ac97")
+		(property "Reference" "RV4"
+			(at 86.36 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 86.36 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+			(at 88.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 88.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b740776-a59d-4155-980d-b8e7f62b1f0d")
+		)
+		(pin "3"
+			(uuid "6acc6b98-85ae-4a7c-96ee-09fab03a2182")
+		)
+		(pin "1"
+			(uuid "c854dc5a-504e-4d8a-8658-b3f369a792f6")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "RV4")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV16")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "RV28")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 152.4 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43ee899c-3d44-43bb-86a9-114c8743180a")
+		(property "Reference" "RV2"
+			(at 149.86 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 149.86 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+			(at 152.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 152.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d260892a-949a-47f9-b316-58b25db3c1fd")
+		)
+		(pin "3"
+			(uuid "f76f9842-a3ad-4746-b45e-d29a94cfb226")
+		)
+		(pin "1"
+			(uuid "35df5d33-2208-4181-b45e-b30a6430e95d")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "RV2")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV14")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "RV26")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "569e95bf-770a-4ecb-8417-8725d6df0d8b")
+		(property "Reference" "#PWR011"
+			(at 215.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31b77106-e582-4840-b3c4-ed79b63d195e")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR021")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e587522-6d9f-49bf-b8d7-93e937b8239e")
+		(property "Reference" "#PWR013"
+			(at 88.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4925bd13-5063-4abc-a7bf-808454886678")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 88.9 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fd122fe-7828-4d42-940a-b1fd06dfbc3d")
+		(property "Reference" "RV7"
+			(at 86.36 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 86.36 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+			(at 88.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 88.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea3e9fcc-f8e4-4f65-8e9a-f0b49fc5888e")
+		)
+		(pin "3"
+			(uuid "501e4822-0025-4bc5-8442-c1530310901b")
+		)
+		(pin "1"
+			(uuid "a18c03ba-9c6d-45c9-aa89-66eff923c8ca")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "RV7")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV19")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "RV31")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83c2772c-33cd-4d89-9eac-0d4c0e8d98b0")
+		(property "Reference" "#PWR08"
+			(at 152.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7cbaf65-ccff-41a6-af40-46f2b5d68968")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "861d3bad-1c15-4b5b-9084-f0b412b493e8")
+		(property "Reference" "#PWR09"
+			(at 215.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8082f51-26b0-434f-a342-14a1cea5a21c")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90658333-e5d1-4e9a-82f5-0ab457e311b7")
+		(property "Reference" "#PWR010"
+			(at 215.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d162e7d-32c1-4638-ae53-c9333a835c02")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "941d5cae-96fc-4f14-91e3-0e52008bada7")
+		(property "Reference" "#PWR03"
+			(at 88.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5019452f-0599-434e-b6a2-4ccbdb8d7055")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac684e3d-ebcb-4322-b60b-fd9dde916e82")
+		(property "Reference" "#PWR04"
+			(at 88.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4428fb4b-6d96-4bff-917c-40707d891e01")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR022")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "#PWR034")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4a76a0c-6667-43ef-9874-de81e6ce07c8")
+		(property "Reference" "#PWR07"
+			(at 152.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0175f35-f2c2-4bab-9430-eff375c9ee82")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 152.4 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c739811a-9884-48fd-8351-c1920b12d009")
+		(property "Reference" "RV5"
+			(at 149.86 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 149.86 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+			(at 152.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 152.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e1fb8b59-8bdb-44cb-baf9-d3fbe38f2c1a")
+		)
+		(pin "3"
+			(uuid "8803f25a-c35f-4751-9884-aa5b7c5296fe")
+		)
+		(pin "1"
+			(uuid "5dbf964a-5854-46d4-b947-0d589309705d")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "RV5")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV17")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "RV29")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edd1e804-3891-45c6-b090-cbfd6a044fff")
+		(property "Reference" "#PWR02"
+			(at 88.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d09a9d6f-f27b-4858-aec0-b5b656c89c41")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "#PWR02")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 88.9 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0937ba7-d704-45c4-99f7-53cac44395c2")
+		(property "Reference" "RV1"
+			(at 86.36 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 86.36 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+			(at 88.9 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 88.9 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0cd51685-5bbd-48e2-84c1-009322e00c85")
+		)
+		(pin "3"
+			(uuid "575f7c91-afcc-4d41-8fc3-2b699a415c73")
+		)
+		(pin "1"
+			(uuid "82f58786-3b98-4a12-a79e-7bb428f1ce82")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "RV1")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV13")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "RV25")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 215.9 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8590c5c-50b4-458b-84b7-9fb3e5a0e862")
+		(property "Reference" "RV12"
+			(at 213.36 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 213.36 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+			(at 215.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 215.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b1e22a00-bf07-4854-8342-1b83fb88b435")
+		)
+		(pin "3"
+			(uuid "8bf2e708-17ed-4948-8640-8fba420fd7dc")
+		)
+		(pin "1"
+			(uuid "ccf14ed6-73fe-46a5-876b-6a0d7ae3d712")
+		)
+		(instances
+			(project "solstrejf-modmatrix-pots"
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "RV12")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV24")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "RV36")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV48")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
