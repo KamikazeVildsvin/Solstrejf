@@ -17332,7 +17332,7 @@
 		(descr "Through hole IDC box header, 2x08, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0")
 		(tags "Through hole vertical IDC box header THT 2x08 2.54mm double row")
 		(property "Reference" "J1"
-			(at 1.27 6.1 270)
+			(at 1.27 6.1 -90)
 			(layer "B.SilkS")
 			(uuid "2de61d13-b3c7-4b61-b33b-27ca8066dd48")
 			(effects
@@ -17344,7 +17344,7 @@
 			)
 		)
 		(property "Value" "Conn_02x08_Counter_Clockwise"
-			(at 1.27 -23.88 270)
+			(at 1.27 -23.88 -90)
 			(layer "B.Fab")
 			(uuid "2ddf06c9-505a-40ac-89d7-5d2cd71d485d")
 			(effects
@@ -17720,7 +17720,7 @@
 			(uuid "6c4b0046-631d-451e-926d-ec487e3e529e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 -8.89 360)
+			(at 1.27 -8.89 0)
 			(layer "B.Fab")
 			(uuid "8148ea9e-e7f0-468e-98bc-6c20a0571875")
 			(effects
@@ -17927,7 +17927,7 @@
 		(descr "Through hole IDC box header, 2x08, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0")
 		(tags "Through hole vertical IDC box header THT 2x08 2.54mm double row")
 		(property "Reference" "J3"
-			(at 1.27 6.1 270)
+			(at 1.27 6.1 -90)
 			(layer "B.SilkS")
 			(uuid "2be5512c-c05b-4243-a6b5-68f5634901ac")
 			(effects
@@ -17939,7 +17939,7 @@
 			)
 		)
 		(property "Value" "Conn_02x08_Counter_Clockwise"
-			(at 1.27 -23.88 270)
+			(at 1.27 -23.88 -90)
 			(layer "B.Fab")
 			(uuid "44c0973c-6b3d-477c-b381-2cfeca28c9a9")
 			(effects
@@ -18315,7 +18315,7 @@
 			(uuid "02dce9cb-7424-4b4a-8dc3-79e1e5d71d3b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 -8.89 360)
+			(at 1.27 -8.89 0)
 			(layer "B.Fab")
 			(uuid "6d60ac32-bf4c-400c-a3f9-58330314b4b4")
 			(effects
@@ -18522,7 +18522,7 @@
 		(descr "Through hole IDC box header, 2x08, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0")
 		(tags "Through hole vertical IDC box header THT 2x08 2.54mm double row")
 		(property "Reference" "J4"
-			(at 1.27 6.1 270)
+			(at 1.27 6.1 -90)
 			(layer "B.SilkS")
 			(uuid "740153f4-b38f-496f-9eb0-7133143e6c31")
 			(effects
@@ -18534,7 +18534,7 @@
 			)
 		)
 		(property "Value" "Conn_02x08_Counter_Clockwise"
-			(at 1.27 -23.88 270)
+			(at 1.27 -23.88 -90)
 			(layer "B.Fab")
 			(uuid "249f5675-8ec6-4215-badd-c800a107b95d")
 			(effects
@@ -18910,7 +18910,7 @@
 			(uuid "71469ae7-adb6-4bc3-ac32-3c30f94e6c26")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 -8.89 360)
+			(at 1.27 -8.89 0)
 			(layer "B.Fab")
 			(uuid "3ee3705e-e1f6-4f99-b379-73ef3c73f234")
 			(effects
@@ -19117,7 +19117,7 @@
 		(descr "Through hole IDC box header, 2x08, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0")
 		(tags "Through hole vertical IDC box header THT 2x08 2.54mm double row")
 		(property "Reference" "J2"
-			(at 1.27 6.1 270)
+			(at 1.27 6.1 -90)
 			(layer "B.SilkS")
 			(uuid "b37cc6a5-5e48-4f97-b451-cc7e473bd463")
 			(effects
@@ -19129,7 +19129,7 @@
 			)
 		)
 		(property "Value" "Conn_02x08_Counter_Clockwise"
-			(at 1.27 -23.88 270)
+			(at 1.27 -23.88 -90)
 			(layer "B.Fab")
 			(uuid "35072a5c-aa48-4f9b-9f05-bbf0e6ca329a")
 			(effects
@@ -19505,7 +19505,7 @@
 			(uuid "18ff523b-ff4d-44ec-b131-80638363b474")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 -8.89 360)
+			(at 1.27 -8.89 0)
 			(layer "B.Fab")
 			(uuid "0c07f0d0-c218-4ab0-ac7e-6c7c00a32680")
 			(effects
