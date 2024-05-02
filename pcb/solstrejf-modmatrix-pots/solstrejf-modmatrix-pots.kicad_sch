@@ -1851,7 +1851,7 @@
 		(uuid "0042b110-08fd-45fa-8386-903cf1a34de4")
 	)
 	(label "V4FREQ4"
-		(at 270.51 125.73 0)
+		(at 270.51 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1873,7 +1873,7 @@
 		(uuid "01ff08de-1fbe-4182-85a4-e6238df38b77")
 	)
 	(label "V4AMP3"
-		(at 270.51 130.81 0)
+		(at 270.51 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1906,7 +1906,7 @@
 		(uuid "0c0e9aae-e265-44e5-ad0a-e726b83fc18c")
 	)
 	(label "V2FREQ3"
-		(at 270.51 69.85 0)
+		(at 270.51 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2005,7 +2005,7 @@
 		(uuid "1f9abb14-09af-495f-a928-450fbc74b31a")
 	)
 	(label "V2AMP4"
-		(at 270.51 59.69 0)
+		(at 270.51 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2016,7 +2016,7 @@
 		(uuid "23db14ab-2b5f-4f39-a95c-a13d08c94f00")
 	)
 	(label "V3FREQ4"
-		(at 137.16 125.73 0)
+		(at 137.16 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2038,7 +2038,7 @@
 		(uuid "27e876db-e926-4fd7-948d-66d8e0f2e2a4")
 	)
 	(label "V2FREQ2"
-		(at 257.81 72.39 180)
+		(at 257.81 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2071,7 +2071,7 @@
 		(uuid "2cf271af-f2fd-410b-9b32-8e5164f7f097")
 	)
 	(label "V1AMP3"
-		(at 137.16 67.31 0)
+		(at 137.16 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2104,7 +2104,7 @@
 		(uuid "408538cd-fd78-4e69-a700-a9d3d901f630")
 	)
 	(label "V1FREQ3"
-		(at 137.16 69.85 0)
+		(at 137.16 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2159,7 +2159,7 @@
 		(uuid "4f9815d7-ecac-475e-992e-48c585238186")
 	)
 	(label "V2FREQ4"
-		(at 270.51 62.23 0)
+		(at 270.51 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2225,7 +2225,7 @@
 		(uuid "5f12e84f-cb2a-4044-b53c-d788d8affb83")
 	)
 	(label "V1AMP2"
-		(at 124.46 69.85 180)
+		(at 124.46 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2324,7 +2324,7 @@
 		(uuid "682da760-e246-4fff-92d3-da6b823ab490")
 	)
 	(label "V4FREQ3"
-		(at 270.51 133.35 0)
+		(at 270.51 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2379,7 +2379,7 @@
 		(uuid "72e4fd8b-d775-466d-ae8e-10bd5e8ae06d")
 	)
 	(label "V2AMP3"
-		(at 270.51 67.31 0)
+		(at 270.51 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2423,13 +2423,13 @@
 		(uuid "79ee9234-c279-4c0a-854f-d097dbb0004d")
 	)
 	(label "V1AMP1"
-		(at 137.16 74.93 0)
+		(at 124.46 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7c417e35-a37a-4601-9b31-a810cf7e24f3")
 	)
@@ -2478,7 +2478,7 @@
 		(uuid "8ac98781-08b5-4f33-91f5-5ae57a1e0a2d")
 	)
 	(label "V4AMP2"
-		(at 257.81 133.35 180)
+		(at 257.81 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2544,7 +2544,7 @@
 		(uuid "934de31e-de7d-4004-9b1c-ca4560d19d7a")
 	)
 	(label "V3AMP4"
-		(at 137.16 123.19 0)
+		(at 137.16 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2599,7 +2599,7 @@
 		(uuid "99e1c517-7b82-4f17-8c84-1c21b1dacd24")
 	)
 	(label "V3FREQ3"
-		(at 137.16 133.35 0)
+		(at 137.16 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2621,7 +2621,7 @@
 		(uuid "9b834a0f-4ed6-45be-a467-6be44f35464c")
 	)
 	(label "V3FREQ2"
-		(at 124.46 135.89 180)
+		(at 124.46 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2632,13 +2632,13 @@
 		(uuid "9ecf1522-9df5-4b8f-b484-0752f2295303")
 	)
 	(label "V2FREQ1"
-		(at 257.81 74.93 180)
+		(at 270.51 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "9f84ac45-251e-4075-814a-633fb0629633")
 	)
@@ -2665,7 +2665,7 @@
 		(uuid "a5de96d1-f48e-46dc-a6a1-184e4c676c3c")
 	)
 	(label "V4AMP4"
-		(at 270.51 123.19 0)
+		(at 270.51 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2676,13 +2676,13 @@
 		(uuid "a68b9aee-4bc4-4049-9dc7-bca797d5b5f7")
 	)
 	(label "V3FREQ1"
-		(at 124.46 138.43 180)
+		(at 137.16 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "a8b334a8-c228-47f8-a978-8e7940476fcd")
 	)
@@ -2698,18 +2698,18 @@
 		(uuid "a958c857-2349-4793-b3ce-9c73a473ab18")
 	)
 	(label "V1FREQ1"
-		(at 124.46 74.93 180)
+		(at 137.16 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "a9d66f8a-e148-4671-96ed-942eb0f6d544")
 	)
 	(label "V3AMP2"
-		(at 124.46 133.35 180)
+		(at 124.46 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2753,18 +2753,18 @@
 		(uuid "b1606a14-c62e-4ab4-b144-1611ba1323c2")
 	)
 	(label "V2AMP1"
-		(at 270.51 74.93 0)
+		(at 257.81 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b1e83bf9-f7af-4e35-aa04-a6ae7152aa68")
 	)
 	(label "V1FREQ4"
-		(at 137.16 62.23 0)
+		(at 137.16 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2797,7 +2797,7 @@
 		(uuid "b7047537-db77-49ac-a6cb-cb44fe6a91fb")
 	)
 	(label "V2AMP2"
-		(at 257.81 69.85 180)
+		(at 257.81 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2808,13 +2808,13 @@
 		(uuid "b72c80ac-2023-4919-b0f5-9ccfd03086db")
 	)
 	(label "V3AMP1"
-		(at 137.16 138.43 0)
+		(at 124.46 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b80f392d-fc79-4be9-82ee-b9dfe5230d94")
 	)
@@ -2841,13 +2841,13 @@
 		(uuid "bae5cbcc-38f7-4376-a50f-4952778ae230")
 	)
 	(label "V4AMP1"
-		(at 270.51 138.43 0)
+		(at 257.81 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c12fe838-fc35-4933-a64b-159976904364")
 	)
@@ -2863,13 +2863,13 @@
 		(uuid "c3a7fb4a-8c3e-483e-a302-b6a34da08fcd")
 	)
 	(label "V4FREQ1"
-		(at 257.81 138.43 180)
+		(at 270.51 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "c56709b7-7276-43a7-9b38-d7fde74bdabc")
 	)
@@ -2896,7 +2896,7 @@
 		(uuid "d145ab52-682e-4280-a063-ea17356a9631")
 	)
 	(label "V3AMP3"
-		(at 137.16 130.81 0)
+		(at 137.16 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2907,7 +2907,7 @@
 		(uuid "d228512f-842d-4d9e-ad72-a83d3e67f45b")
 	)
 	(label "V1AMP4"
-		(at 137.16 59.69 0)
+		(at 137.16 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2995,7 +2995,7 @@
 		(uuid "e4ea7a1a-8ea3-4fe0-a87e-0f5eda6475ba")
 	)
 	(label "V4FREQ2"
-		(at 257.81 135.89 180)
+		(at 257.81 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3083,7 +3083,7 @@
 		(uuid "fb38578f-4bdb-489f-8cfb-b3e2eb3bf432")
 	)
 	(label "V1FREQ2"
-		(at 124.46 72.39 180)
+		(at 124.46 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
