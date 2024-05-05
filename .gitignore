@@ -1,3 +1,3 @@
 *.DS_Store
 pcb/solstrejf-modmatrix-pots/solstrejf-modmatrix-pots-backup*
-pcb/solstrejf-modmatrix-pots/~solstrejf-modmatrix-pots.kicad_pcb.lck
+*.lck
