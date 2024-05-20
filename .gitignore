@@ -2,5 +2,7 @@
 pcb/solstrejf-modmatrix-pots/solstrejf-modmatrix-pots-backup*
 *.lck
 *.log
+*.raw
+*.net
 *fp-info-cache
 *fabrication-toolkit-options.json
