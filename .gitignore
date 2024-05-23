@@ -1,5 +1,6 @@
 *.DS_Store
 pcb/solstrejf-modmatrix-pots/solstrejf-modmatrix-pots-backup*
+*backup*
 *.lck
 *.log
 *.raw
