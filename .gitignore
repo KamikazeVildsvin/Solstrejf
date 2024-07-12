@@ -1,4 +1,5 @@
 *.DS_Store
+*.ipynb_checkpoints*
 pcb/solstrejf-modmatrix-pots/solstrejf-modmatrix-pots-backup*
 *backup*
 *.lck
