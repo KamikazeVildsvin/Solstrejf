@@ -1279,6 +1279,12 @@
 		(uuid "c907c34e-fbb6-4f27-86b3-8bc89de0696d")
 	)
 	(junction
+		(at 214.63 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da39fbf1-912a-4d4f-99cc-b5f4b8420d5f")
+	)
+	(junction
 		(at 119.38 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1792,7 +1798,7 @@
 	)
 	(text "Decoupling\nPlace Near Power Pins"
 		(exclude_from_sim no)
-		(at 198.882 88.646 0)
+		(at 207.772 103.124 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2183,6 +2189,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 214.63 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a475b1a-2f9c-4f68-907f-24b76caf1274")
+		(property "Reference" "#PWR026"
+			(at 208.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74bd140f-4d02-490e-9cab-fb75b4057721")
+		)
+		(instances
+			(project "solstrejf-PSU-mixer"
+				(path "/af6d8e61-e5bb-4f8a-a3f3-03014b8b6dd9/0a99becb-17cc-44aa-8430-edab444b5bb9"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 177.8 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2332,7 +2405,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "TL072"
 			(at 132.08 63.5 0)
 			(effects
 				(font
@@ -2536,7 +2609,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "TL072"
 			(at 132.08 139.7 0)
 			(effects
 				(font
@@ -2657,7 +2730,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 165.1 51.816 90)
 			(effects
 				(font
@@ -2792,7 +2865,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "TL072"
 			(at 229.87 91.4399 0)
 			(effects
 				(font
@@ -2914,7 +2987,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 165.1 128.016 90)
 			(effects
 				(font
@@ -3048,7 +3121,7 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "1n"
 			(at 130.81 106.68 90)
 			(effects
 				(font
@@ -3420,22 +3493,22 @@
 			)
 		)
 		(pin "4"
-			(uuid "c7a82467-2a24-4885-a1e3-bcde9499cd0b")
+			(uuid "c7a82467-2a24-4885-a1e3-bcde9499cd0c")
 		)
 		(pin "2"
-			(uuid "3aacc573-b830-4c20-aca1-645e8c1e8eca")
+			(uuid "3aacc573-b830-4c20-aca1-645e8c1e8ecb")
 		)
 		(pin "1"
-			(uuid "eb3fc39e-ed2a-4a16-aa7a-21c1e976ccb8")
+			(uuid "eb3fc39e-ed2a-4a16-aa7a-21c1e976ccb9")
 		)
 		(pin "5"
-			(uuid "0e9362a5-6f5b-436b-8767-5389420796ac")
+			(uuid "0e9362a5-6f5b-436b-8767-5389420796ad")
 		)
 		(pin "6"
-			(uuid "a48df09f-31e1-47ba-b0b4-449e78677f23")
+			(uuid "a48df09f-31e1-47ba-b0b4-449e78677f24")
 		)
 		(pin "3"
-			(uuid "5de58c1f-d1a9-46a8-a270-8587b47a340e")
+			(uuid "5de58c1f-d1a9-46a8-a270-8587b47a340f")
 		)
 		(instances
 			(project ""
@@ -3464,7 +3537,7 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "1n"
 			(at 130.81 30.48 90)
 			(effects
 				(font

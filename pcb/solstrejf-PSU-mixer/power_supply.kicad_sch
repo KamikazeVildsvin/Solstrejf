@@ -1781,6 +1781,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 76.2) (xy 231.14 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02cfae27-ba6d-43dd-afbe-478046ca84a4")
+	)
+	(wire
+		(pts
 			(xy 177.8 83.82) (xy 177.8 88.9)
 		)
 		(stroke
@@ -1901,7 +1911,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 82.55) (xy 231.14 88.9)
+			(xy 231.14 83.82) (xy 231.14 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3100,7 +3110,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000uF 35V"
+		(property "Value" "1000u 35V"
 			(at 105.41 47.3709 0)
 			(effects
 				(font
@@ -3170,7 +3180,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000uF 35V"
+		(property "Value" "1000u 35V"
 			(at 130.81 80.3909 0)
 			(effects
 				(font
@@ -3240,7 +3250,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GND_TP"
+		(property "Value" "GND"
 			(at 218.44 61.4679 0)
 			(effects
 				(font
@@ -3307,7 +3317,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "-15V_TP"
+		(property "Value" "-15V"
 			(at 218.44 86.8679 0)
 			(effects
 				(font
@@ -3584,7 +3594,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000uF 35V"
+		(property "Value" "1000u 35V"
 			(at 130.81 47.3709 0)
 			(effects
 				(font
@@ -3703,7 +3713,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 231.14 78.74 90)
+		(at 231.14 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3712,7 +3722,7 @@
 		(fields_autoplaced yes)
 		(uuid "a709720b-f7bc-4e7d-96d9-f923ee8abf74")
 		(property "Reference" "D3"
-			(at 234.95 79.0574 90)
+			(at 234.95 71.4374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +3731,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 234.95 81.5974 90)
+			(at 234.95 73.9774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,7 +3740,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm_FlatTop"
-			(at 231.14 78.74 0)
+			(at 231.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +3749,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 78.74 0)
+			(at 231.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3748,7 +3758,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 231.14 78.74 0)
+			(at 231.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3790,7 +3800,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF 35V"
+		(property "Value" "22u 35V"
 			(at 181.61 47.3709 0)
 			(effects
 				(font
@@ -3860,7 +3870,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF 35V"
+		(property "Value" "22u 35V"
 			(at 181.61 80.3909 0)
 			(effects
 				(font
@@ -4072,7 +4082,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "+15V_TP"
+		(property "Value" "+15V"
 			(at 218.44 36.0679 0)
 			(effects
 				(font
@@ -4139,7 +4149,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000uF 35V"
+		(property "Value" "1000u 35V"
 			(at 105.41 80.3909 0)
 			(effects
 				(font
@@ -4259,7 +4269,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 231.14 71.12 180)
+		(at 231.14 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4267,7 +4277,7 @@
 		(dnp no)
 		(uuid "f57f0fee-9def-4068-b2ab-1e27861e487e")
 		(property "Reference" "R8"
-			(at 229.108 71.12 90)
+			(at 229.108 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4275,7 +4285,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 231.14 71.12 90)
+			(at 231.14 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4283,7 +4293,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 232.918 71.12 90)
+			(at 232.918 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4292,7 +4302,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 71.12 0)
+			(at 231.14 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4301,7 +4311,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 231.14 71.12 0)
+			(at 231.14 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
