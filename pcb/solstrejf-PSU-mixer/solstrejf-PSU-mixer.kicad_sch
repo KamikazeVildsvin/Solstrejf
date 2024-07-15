@@ -3862,16 +3862,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 233.68 88.9 0)
+		(at 233.68 91.44 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d557d18c-d090-4f4f-bc5c-21cffb156fda")
 		(property "Reference" "J2"
-			(at 234.95 88.8999 0)
+			(at 234.95 91.4401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,8 +3879,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RIGHT_JACK"
-			(at 234.95 91.4399 0)
+		(property "Value" "RIGHT JACK"
+			(at 234.95 88.9001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +3889,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 233.68 88.9 0)
+			(at 233.68 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,7 +3898,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 88.9 0)
+			(at 233.68 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3907,7 +3907,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 233.68 88.9 0)
+			(at 233.68 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4197,16 +4197,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 233.68 66.04 0)
+		(at 233.68 68.58 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ede8f44f-6718-4f5b-8810-52d86280f427")
 		(property "Reference" "J1"
-			(at 234.95 66.0399 0)
+			(at 234.95 68.5801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4214,8 +4214,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LEFT_JACK"
-			(at 234.95 68.5799 0)
+		(property "Value" "LEFT JACK"
+			(at 234.95 66.0401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4224,7 +4224,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 233.68 66.04 0)
+			(at 233.68 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4233,7 +4233,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 66.04 0)
+			(at 233.68 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4242,7 +4242,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 233.68 66.04 0)
+			(at 233.68 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4358,7 +4358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-3_P5.08mm"
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x03_P4.8mm_D0.9mm_OD2.3mm"
 			(at 44.45 152.4 0)
 			(effects
 				(font

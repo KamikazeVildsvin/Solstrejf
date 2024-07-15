@@ -125,7 +125,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -448,7 +448,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.5,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -478,6 +478,8 @@
     "netclass_assignments": {
       "+15V": "Power",
       "-15V": "Power",
+      "/AC_1": "Power",
+      "/AC_2": "Power",
       "GND": "Power",
       "Net-(D2-+)": "Power",
       "Net-(D2--)": "Power",
