@@ -10,7 +10,19 @@ Solstrejf, roughly translated from danish to "sun streak" or "sun touch", is a f
 I wanted the instrument to be playfull and interactive. Four sine wave oscillators in it self is maybe not that interseting and can become static. A mod-matrix, which would allow for all four voices to modulate parameters like frequency and amplitude on all other voice would create more complex sound scapes. The basic idea and block diagram can be seen above, where four identical voice boards are connected to the mod-matrix board and to a power supply/mixer board for output summation.
 
 ## Images
-Below are some images and renders of the different PCB's and schematics.
+Below are some images and renders of the different KiCad PCB's and schematics.
+
+### PSU / Audio Mixer
+
+###### PCB
+![PSU/audio-mixer PCB](images/pcb-PSU-audio-mixer/PCB-REV1.png)
+
+###### 3D Model : Top View
+![PSU/audio-mixer Top](images/pcb-PSU-audio-mixer/3D-Render-Top-REV1.png)
+
+###### 3D Model : Side View
+![PSU/audio-mixer Side](images/pcb-PSU-audio-mixer/3D-Render-Sideview-REV1.png)
+
 
 ### Mod-Matrix
 
