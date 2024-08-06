@@ -9,3 +9,4 @@ pcb/solstrejf-modmatrix-pots/solstrejf-modmatrix-pots-backup*
 *fp-info-cache
 *fabrication-toolkit-options.json
 *production
+*.plt
