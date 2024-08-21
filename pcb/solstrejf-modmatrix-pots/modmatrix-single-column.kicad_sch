@@ -1005,7 +1005,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+		(property "Footprint" "Kromftronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
 			(at 215.9 82.55 0)
 			(effects
 				(font
@@ -1047,16 +1047,16 @@
 					(reference "RV6")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "RV18")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV42")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
 					(reference "RV30")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
-					(reference "RV42")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV18")
 					(unit 1)
 				)
 			)
@@ -1090,7 +1090,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+		(property "Footprint" "Kromftronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
 			(at 88.9 133.35 0)
 			(effects
 				(font
@@ -1132,16 +1132,16 @@
 					(reference "RV10")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "RV22")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV46")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
 					(reference "RV34")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
-					(reference "RV46")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV22")
 					(unit 1)
 				)
 			)
@@ -1175,7 +1175,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+		(property "Footprint" "Kromftronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
 			(at 152.4 133.35 0)
 			(effects
 				(font
@@ -1217,16 +1217,16 @@
 					(reference "RV11")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "RV23")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV47")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
 					(reference "RV35")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
-					(reference "RV47")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV23")
 					(unit 1)
 				)
 			)
@@ -1260,7 +1260,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+		(property "Footprint" "Kromftronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
 			(at 152.4 107.95 0)
 			(effects
 				(font
@@ -1302,16 +1302,16 @@
 					(reference "RV8")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "RV20")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV44")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
 					(reference "RV32")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
-					(reference "RV44")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV20")
 					(unit 1)
 				)
 			)
@@ -1380,16 +1380,16 @@
 					(reference "#PWR012")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "#PWR024")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "#PWR048")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
 					(reference "#PWR036")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
-					(reference "#PWR048")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -1423,7 +1423,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+		(property "Footprint" "Kromftronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
 			(at 215.9 57.15 0)
 			(effects
 				(font
@@ -1465,16 +1465,16 @@
 					(reference "RV3")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "RV15")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV39")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
 					(reference "RV27")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
-					(reference "RV39")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV15")
 					(unit 1)
 				)
 			)
@@ -1543,16 +1543,16 @@
 					(reference "#PWR05")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "#PWR023")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "#PWR047")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
 					(reference "#PWR035")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
-					(reference "#PWR047")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -1621,16 +1621,16 @@
 					(reference "#PWR06")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "#PWR020")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "#PWR044")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
 					(reference "#PWR032")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
-					(reference "#PWR044")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -1664,7 +1664,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+		(property "Footprint" "Kromftronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
 			(at 215.9 107.95 0)
 			(effects
 				(font
@@ -1706,16 +1706,16 @@
 					(reference "RV9")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "RV21")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV45")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
 					(reference "RV33")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
-					(reference "RV45")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV21")
 					(unit 1)
 				)
 			)
@@ -1749,7 +1749,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+		(property "Footprint" "Kromftronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
 			(at 88.9 82.55 0)
 			(effects
 				(font
@@ -1791,16 +1791,16 @@
 					(reference "RV4")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "RV16")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV40")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
 					(reference "RV28")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
-					(reference "RV40")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV16")
 					(unit 1)
 				)
 			)
@@ -1834,7 +1834,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+		(property "Footprint" "Kromftronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
 			(at 152.4 57.15 0)
 			(effects
 				(font
@@ -1876,16 +1876,16 @@
 					(reference "RV2")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "RV14")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV38")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
 					(reference "RV26")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
-					(reference "RV38")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV14")
 					(unit 1)
 				)
 			)
@@ -1954,16 +1954,16 @@
 					(reference "#PWR011")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "#PWR021")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "#PWR045")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
 					(reference "#PWR033")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
-					(reference "#PWR045")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -2028,20 +2028,20 @@
 		)
 		(instances
 			(project "solstrejf-modmatrix-pots"
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "#PWR013")
-					(unit 1)
-				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
-					(reference "#PWR025")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
+					(reference "#PWR01")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
 					(reference "#PWR037")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/29d9df6a-a88d-4dba-9e89-c67434632a79"
-					(reference "#PWR01")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
+					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -2075,7 +2075,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+		(property "Footprint" "Kromftronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
 			(at 88.9 107.95 0)
 			(effects
 				(font
@@ -2117,16 +2117,16 @@
 					(reference "RV7")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "RV19")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV43")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
 					(reference "RV31")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
-					(reference "RV43")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV19")
 					(unit 1)
 				)
 			)
@@ -2195,16 +2195,16 @@
 					(reference "#PWR08")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "#PWR014")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "#PWR038")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
 					(reference "#PWR026")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
-					(reference "#PWR038")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -2273,16 +2273,16 @@
 					(reference "#PWR09")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "#PWR015")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "#PWR039")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
 					(reference "#PWR027")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
-					(reference "#PWR039")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -2351,16 +2351,16 @@
 					(reference "#PWR010")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "#PWR018")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "#PWR042")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
 					(reference "#PWR030")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
-					(reference "#PWR042")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2429,16 +2429,16 @@
 					(reference "#PWR03")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "#PWR019")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "#PWR043")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
 					(reference "#PWR031")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
-					(reference "#PWR043")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2507,16 +2507,16 @@
 					(reference "#PWR04")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "#PWR022")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "#PWR046")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
 					(reference "#PWR034")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
-					(reference "#PWR046")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -2585,16 +2585,16 @@
 					(reference "#PWR07")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "#PWR017")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "#PWR041")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
 					(reference "#PWR029")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
-					(reference "#PWR041")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2628,7 +2628,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+		(property "Footprint" "Kromftronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
 			(at 152.4 82.55 0)
 			(effects
 				(font
@@ -2670,16 +2670,16 @@
 					(reference "RV5")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "RV17")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV41")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
 					(reference "RV29")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
-					(reference "RV41")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV17")
 					(unit 1)
 				)
 			)
@@ -2748,16 +2748,16 @@
 					(reference "#PWR02")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "#PWR016")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "#PWR040")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
 					(reference "#PWR028")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
-					(reference "#PWR040")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -2791,7 +2791,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+		(property "Footprint" "Kromftronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
 			(at 88.9 57.15 0)
 			(effects
 				(font
@@ -2833,16 +2833,16 @@
 					(reference "RV1")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "RV13")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV37")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
 					(reference "RV25")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
-					(reference "RV37")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV13")
 					(unit 1)
 				)
 			)
@@ -2876,7 +2876,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Kromtronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
+		(property "Footprint" "Kromftronics_Custom:Potentiometer_Alpha_slide_pot_30mm"
 			(at 215.9 133.35 0)
 			(effects
 				(font
@@ -2918,16 +2918,16 @@
 					(reference "RV12")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
-					(reference "RV24")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
+					(reference "RV48")
 					(unit 1)
 				)
 				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/baab9f15-64f7-454b-bc96-b5d939418e2a"
 					(reference "RV36")
 					(unit 1)
 				)
-				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/ad931429-1d01-456a-9d59-2237365fcce8"
-					(reference "RV48")
+				(path "/e43dc895-fad5-4104-9c62-93cf61e943f6/f7134fd0-0a63-4cc0-b181-98955213a741"
+					(reference "RV24")
 					(unit 1)
 				)
 			)

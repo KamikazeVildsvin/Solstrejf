@@ -1,0 +1,3 @@
+[submodule "kromftronics-custom-kicad"]
+	path = kromftronics-custom-kicad
+	url = https://github.com/KamikazeVildsvin/kromftronics-custom-kicad
