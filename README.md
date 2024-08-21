@@ -1,5 +1,11 @@
 # Solstrejf - 4 Voice Sinewave Drone Oscillator
 This repository contains the simulation, schematic and PCB files for **Solstrejf**.
+Some custom KiCad footprints, 3D models, and symbols are used in this project. 
+This is included as a git submodule, which means that this repo should be cloned with the `--recursive` option like so: 
+
+```
+git clone --recursive "https://github.com/KamikazeVildsvin/Solstrejf.git"
+```
 
 ### Introduction & Overview
 Solstrejf, roughly translated from danish to "sun streak" or "sun touch", is a four voice analog sine wave drone oscillator. I was on a hike in Sweden out near a beautiful forest lake just around the break of dawn. The way the sun interacted with the nature gave me a real sense of calm and ease. In that moment I thought, *what if I could create an instrument that would be able to replicate this feeling*? A sine wave drone synthesizer came to my mind, similar to the early Musique Concrète test equiment techniques.
