@@ -4,5 +4,10 @@
 	(generator_version "8.0")
 	(uuid "4cb7b81c-4c37-4f78-835d-be58c69d1c2e")
 	(paper "A4")
+	(title_block
+		(title "Frequency Control Voltage Summing Amplifier")
+		(date "2024-08-24")
+		(rev "1.0")
+	)
 	(lib_symbols)
 )
