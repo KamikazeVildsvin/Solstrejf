@@ -10,4 +10,136 @@
 		(rev "1.0")
 	)
 	(lib_symbols)
+	(hierarchical_label "AMP_CV"
+		(shape output)
+		(at 177.8 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0bc82c42-1f5f-4026-a0da-2a17eb4112b9")
+	)
+	(hierarchical_label "ONESHOT_DEL"
+		(shape input)
+		(at 88.9 165.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "158496ec-cb2c-412f-a961-d6ec58e16f5c")
+	)
+	(hierarchical_label "ONESHOT_TRIG"
+		(shape input)
+		(at 88.9 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2392d4bb-5e49-40dd-85c1-ef0f8d8e2fa4")
+	)
+	(hierarchical_label "AMP4"
+		(shape input)
+		(at 88.9 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2872661e-3479-4e7f-a61f-e631bafac300")
+	)
+	(hierarchical_label "AMP1"
+		(shape input)
+		(at 88.9 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9fa012cf-45dc-4884-914c-857d96c93b85")
+	)
+	(hierarchical_label "AMP_POT"
+		(shape input)
+		(at 88.9 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad0dec09-6b6a-4a61-92ae-1c0b012b0e73")
+	)
+	(hierarchical_label "ONESHOT_TYPE"
+		(shape input)
+		(at 88.9 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "adfc5301-05b2-4b14-b702-914491f8437e")
+	)
+	(hierarchical_label "ONESHOT_REPS"
+		(shape input)
+		(at 88.9 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb8c40b4-53b9-4fd4-8ff5-002c1eafd38d")
+	)
+	(hierarchical_label "AMP2"
+		(shape input)
+		(at 88.9 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e95d5fcc-8962-4956-8b64-558b41e4d3ef")
+	)
+	(hierarchical_label "ONESHOT_RATE"
+		(shape input)
+		(at 88.9 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eaea9fe6-1bc9-4aaa-b581-b960ba88f75b")
+	)
+	(hierarchical_label "AMP3"
+		(shape input)
+		(at 88.9 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fff6d9d2-41f5-4901-a0a5-f72d5666f25c")
+	)
 )
