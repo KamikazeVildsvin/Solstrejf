@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "e43dc895-fad5-4104-9c62-93cf61e943f6")
 	(paper "A4")
+	(title_block
+		(title "Solstrejf Modulation Matrix Toplevel")
+		(date "2024-08-24")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x08_Odd_Even"
 			(pin_names

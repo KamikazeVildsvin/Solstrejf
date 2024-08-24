@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "c3f44d79-3772-447c-a0d6-0fa036bea8a0")
 	(paper "A4")
+	(title_block
+		(title "Modulation Matrix - One Voice")
+		(date "2024-08-24")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Device:R_Potentiometer"
 			(pin_names
@@ -1979,7 +1984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e587522-6d9f-49bf-b8d7-93e937b8239e")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR01"
 			(at 88.9 69.85 0)
 			(effects
 				(font
