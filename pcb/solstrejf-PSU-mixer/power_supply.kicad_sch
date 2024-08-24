@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "e13c15ba-db0e-4cdc-9d5c-f4f641dbcafd")
 	(paper "A4")
+	(title_block
+		(title "Linear Split Supply AC-DC Converter")
+		(date "2024-08-24")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)

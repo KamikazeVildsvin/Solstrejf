@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "af6d8e61-e5bb-4f8a-a3f3-03014b8b6dd9")
 	(paper "A4")
+	(title_block
+		(title "Solstrejf PSU & Mixer")
+		(date "2024-08-24")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
@@ -1499,8 +1504,6 @@
 		(effects
 			(font
 				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
 			)
 		)
 		(uuid "2b77e1a1-d242-4547-87e4-cb162af4810a")
@@ -1511,8 +1514,6 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
 			)
 		)
 		(uuid "44985e38-e0ef-4c2f-a783-41617b353f77")
@@ -1522,7 +1523,7 @@
 		(at 45.974 134.62 0)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.54 2.54)
 			)
 		)
 		(uuid "7767cdfe-c9f4-42f9-98dc-9462f64ebe49")
@@ -1532,9 +1533,7 @@
 		(at 108.712 68.326 0)
 		(effects
 			(font
-				(size 2.57 2.57)
-				(thickness 0.514)
-				(bold yes)
+				(size 2.54 2.54)
 			)
 		)
 		(uuid "779521f1-4729-4e48-9c30-76d8e8faf3a1")
@@ -1544,9 +1543,7 @@
 		(at 57.404 68.072 0)
 		(effects
 			(font
-				(size 2.57 2.57)
-				(thickness 0.514)
-				(bold yes)
+				(size 2.54 2.54)
 			)
 		)
 		(uuid "9009372d-8e7a-446e-a4c3-edf71287b383")
@@ -1556,9 +1553,7 @@
 		(at 107.95 108.966 0)
 		(effects
 			(font
-				(size 2.57 2.57)
-				(thickness 0.514)
-				(bold yes)
+				(size 2.54 2.54)
 			)
 		)
 		(uuid "991c3aa8-25e9-428c-a3d2-37418e60a4b3")
@@ -1568,9 +1563,7 @@
 		(at 57.404 108.966 0)
 		(effects
 			(font
-				(size 2.57 2.57)
-				(thickness 0.514)
-				(bold yes)
+				(size 2.54 2.54)
 			)
 		)
 		(uuid "c23da2a5-2086-4609-b343-58bd4cd54576")
