@@ -2533,7 +2533,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k-A"
+		(property "Value" "10k-A"
 			(at 175.26 64.7699 0)
 			(effects
 				(font
@@ -3461,7 +3461,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k-A"
+		(property "Value" "10k-A"
 			(at 175.26 140.9699 0)
 			(effects
 				(font

@@ -10337,7 +10337,7 @@
 				)
 			)
 		)
-		(property "Value" "100k-A"
+		(property "Value" "10k-A"
 			(at 1.27 7.41 0)
 			(layer "F.SilkS")
 			(uuid "1b2405a4-856b-478d-b334-6b187ddb0f58")
@@ -12584,7 +12584,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J1"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "5bcf60f0-cd6a-4499-9d20-1b0cdf15cdf3")
 			(effects
@@ -21217,7 +21217,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J2"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "3a3d8ecf-2b28-4b6b-9bcd-57f122c5aae0")
 			(effects
