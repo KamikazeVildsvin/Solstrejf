@@ -3054,18 +3054,6 @@
 		(uuid "33a2b1a8-01d7-4258-8ede-952389239e6c")
 	)
 	(junction
-		(at 163.83 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34d2ccc8-c61b-4055-8831-a2d4877d34ae")
-	)
-	(junction
-		(at 153.67 189.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "479cbce2-6c49-42f0-9c8f-ab63a5a96b9d")
-	)
-	(junction
 		(at 173.99 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3106,12 +3094,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6eeb513c-ffd3-412e-8cd7-026ba419eaee")
-	)
-	(junction
-		(at 153.67 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7cdd30d0-47e8-4935-a15a-93589c6b186f")
 	)
 	(junction
 		(at 184.15 81.28)
@@ -3368,16 +3350,6 @@
 			(type default)
 		)
 		(uuid "2bec1733-de8b-471e-a7bd-f5d3e4769c48")
-	)
-	(wire
-		(pts
-			(xy 153.67 173.99) (xy 163.83 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c822e4d-038b-4832-8ea7-b3d695e3c04f")
 	)
 	(wire
 		(pts
@@ -3911,16 +3883,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 189.23) (xy 163.83 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6b4ffdc-ead9-4c4d-977d-a32710643728")
-	)
-	(wire
-		(pts
 			(xy 171.45 135.89) (xy 175.26 135.89)
 		)
 		(stroke
@@ -4301,16 +4263,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 181.61) (xy 163.83 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eae19470-7772-48f4-ae78-83bdc8eb2d64")
-	)
-	(wire
-		(pts
 			(xy 224.79 46.99) (xy 224.79 58.42)
 		)
 		(stroke
@@ -4545,7 +4497,7 @@
 		)
 		(uuid "b12ca043-2131-43b3-b9c5-8ba9abf2c282")
 	)
-	(text "Local Power Rails"
+	(text "Power & Decoupling"
 		(exclude_from_sim no)
 		(at 85.344 153.67 0)
 		(effects
@@ -4554,6 +4506,16 @@
 			)
 		)
 		(uuid "b81a90e9-401c-4d96-af58-f9ee7f8b0d1c")
+	)
+	(text "Remove DC offset \nfrom VCF output"
+		(exclude_from_sim no)
+		(at 150.368 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bc3ed005-b5fb-42a4-ade4-93f1638ecdc5")
 	)
 	(text "Testpoint for calibration\nof resonance level"
 		(exclude_from_sim no)
@@ -4661,6 +4623,17 @@
 		)
 		(uuid "12bb2416-ea8a-4cc1-ad59-6a3177da2338")
 	)
+	(label "ONESHOT_REPS"
+		(at 86.36 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b200a82-7f66-434c-9529-da0e3364c7c5")
+	)
 	(label "Cd"
 		(at 204.47 107.95 0)
 		(fields_autoplaced yes)
@@ -4671,6 +4644,17 @@
 			(justify left bottom)
 		)
 		(uuid "2b8e272a-3a44-4869-93e2-0b9e8ce01014")
+	)
+	(label "ONESHOT_TRIG"
+		(at 86.36 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2db00ef7-87e1-4b7d-b0b7-f079dd8e0ad4")
 	)
 	(label "IN2"
 		(at 168.91 106.68 0)
@@ -4803,6 +4787,17 @@
 			(justify right)
 		)
 		(uuid "4efc0e2d-bb32-4465-8a64-8c0f1b82f875")
+	)
+	(label "AMP_POT"
+		(at 86.36 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51ec9643-fdae-41c5-a6cb-0645b23c42a9")
 	)
 	(label "R_OUT"
 		(at 48.26 173.99 0)
@@ -4958,6 +4953,17 @@
 		)
 		(uuid "87f9e1e0-5765-41a3-b5ca-e6768e86732e")
 	)
+	(label "FREQ_POT"
+		(at 137.16 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ee5623c-a691-445b-b01a-4d8353a964b8")
+	)
 	(label "VCA4_IN"
 		(at 171.45 121.92 180)
 		(fields_autoplaced yes)
@@ -5024,6 +5030,17 @@
 		)
 		(uuid "a7a903d9-d078-49ac-85a6-e4211dcfe159")
 	)
+	(label "PAN_POT"
+		(at 35.56 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9961eac-9dc9-447c-ba28-c8616ed55315")
+	)
 	(label "Cntrl2"
 		(at 168.91 109.22 0)
 		(fields_autoplaced yes)
@@ -5045,6 +5062,17 @@
 			(justify left bottom)
 		)
 		(uuid "b00b9ac7-8020-4915-a66a-3468adf5b722")
+	)
+	(label "ONESHOT_TYPE"
+		(at 86.36 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6d67963-355d-4d34-9fff-0854e7e2fd8e")
 	)
 	(label "Cc"
 		(at 204.47 110.49 0)
@@ -5178,6 +5206,17 @@
 		)
 		(uuid "eb8b07e2-1196-4ac3-8b77-7dc4509cccc5")
 	)
+	(label "ONESHOT_RATE"
+		(at 86.36 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed261fa4-1759-4ef2-830c-3af696174fbc")
+	)
 	(label "RES_CV"
 		(at 130.81 171.45 0)
 		(fields_autoplaced yes)
@@ -5232,6 +5271,17 @@
 			(justify right)
 		)
 		(uuid "fa6a3c20-d791-4927-a9cc-b2f70e5ca5d5")
+	)
+	(label "ONESHOT_DEL"
+		(at 86.36 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa703422-d699-4d2e-98a8-14cafcedbd0d")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -5904,71 +5954,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-15V")
-		(at 153.67 189.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "228eaa9c-c31f-4c1f-b98c-d3f21f8e0686")
-		(property "Reference" "#PWR031"
-			(at 153.67 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-15V"
-			(at 153.67 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 153.67 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e3ddcf1-49ff-43f3-b1f1-c9fad252642d")
-		)
-		(instances
-			(project "solstrejf-voiceboard-core"
-				(path "/7d3f8c36-b7ba-4590-a2b1-082ed54fe832"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 124.46 176.53 180)
 		(unit 1)
@@ -6437,93 +6422,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL072")
-		(at 156.21 181.61 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "408aaf32-3188-4579-8d74-db69d5754b51")
-		(property "Reference" "U4"
-			(at 146.558 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TL072"
-			(at 146.558 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
-			(at 156.21 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 156.21 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at 156.21 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "d3c2d0dc-e50d-43bd-82df-4286a89095c4")
-		)
-		(pin "7"
-			(uuid "9d64d336-2c89-4a51-aa28-e144ccfbf18f")
-		)
-		(pin "2"
-			(uuid "671504fa-dad7-4d11-834d-f89b674bb084")
-		)
-		(pin "5"
-			(uuid "4c3fb034-62d8-41b8-9e78-3e5faeaa973a")
-		)
-		(pin "6"
-			(uuid "05c9a03b-8a54-4bc4-bee0-e8182c425b95")
-		)
-		(pin "1"
-			(uuid "653a785c-18b9-4615-9d9a-c25ada9446ae")
-		)
-		(pin "3"
-			(uuid "2a4c042a-8e0a-4c63-9411-718257cd6340")
-		)
-		(pin "8"
-			(uuid "adc3523d-315f-4e0c-8e37-25137cd39851")
-		)
-		(instances
-			(project ""
-				(path "/7d3f8c36-b7ba-4590-a2b1-082ed54fe832"
-					(reference "U4")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 124.46 154.94 180)
 		(unit 1)
@@ -6820,72 +6718,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 181.61 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e608938-0ed8-4859-8bc5-c13647dd1577")
-		(property "Reference" "#PWR032"
-			(at 153.67 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.528 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57c68ad8-03cf-4405-9a06-18ef09452821")
-		)
-		(instances
-			(project "solstrejf-voiceboard-core"
-				(path "/7d3f8c36-b7ba-4590-a2b1-082ed54fe832"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 220.98 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7143,144 +6975,6 @@
 			(project ""
 				(path "/7d3f8c36-b7ba-4590-a2b1-082ed54fe832"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 163.83 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "672d0772-305c-4ad8-9c98-4d1fb0cea5ff")
-		(property "Reference" "C19"
-			(at 166.624 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 166.624 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
-			(at 164.7952 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 163.83 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "87855ec0-02e3-47ac-8799-172ad8916f29")
-		)
-		(pin "1"
-			(uuid "ca5d8259-ed67-4a48-83ff-897e33c6dc33")
-		)
-		(instances
-			(project "solstrejf-voiceboard-core"
-				(path "/7d3f8c36-b7ba-4590-a2b1-082ed54fe832"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 163.83 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a7ae195-d434-442d-9932-1106fe229f59")
-		(property "Reference" "C18"
-			(at 166.624 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 166.624 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
-			(at 164.7952 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 163.83 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "68c6866e-f296-4393-9b9d-04105eee46a3")
-		)
-		(pin "1"
-			(uuid "641bc36d-fa69-4bd0-be5e-4ca566b93bc3")
-		)
-		(instances
-			(project "solstrejf-voiceboard-core"
-				(path "/7d3f8c36-b7ba-4590-a2b1-082ed54fe832"
-					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -8078,28 +7772,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "d3c2d0dc-e50d-43bd-82df-4286a89095c4")
+			(uuid "d3c2d0dc-e50d-43bd-82df-4286a89095c5")
 		)
 		(pin "7"
-			(uuid "9d64d336-2c89-4a51-aa28-e144ccfbf18f")
+			(uuid "9d64d336-2c89-4a51-aa28-e144ccfbf190")
 		)
 		(pin "2"
-			(uuid "671504fa-dad7-4d11-834d-f89b674bb084")
+			(uuid "671504fa-dad7-4d11-834d-f89b674bb085")
 		)
 		(pin "5"
-			(uuid "4c3fb034-62d8-41b8-9e78-3e5faeaa973a")
+			(uuid "4c3fb034-62d8-41b8-9e78-3e5faeaa973b")
 		)
 		(pin "6"
-			(uuid "05c9a03b-8a54-4bc4-bee0-e8182c425b95")
+			(uuid "05c9a03b-8a54-4bc4-bee0-e8182c425b96")
 		)
 		(pin "1"
-			(uuid "653a785c-18b9-4615-9d9a-c25ada9446ae")
+			(uuid "653a785c-18b9-4615-9d9a-c25ada9446af")
 		)
 		(pin "3"
-			(uuid "2a4c042a-8e0a-4c63-9411-718257cd6340")
+			(uuid "2a4c042a-8e0a-4c63-9411-718257cd6341")
 		)
 		(pin "8"
-			(uuid "adc3523d-315f-4e0c-8e37-25137cd39851")
+			(uuid "adc3523d-315f-4e0c-8e37-25137cd39852")
 		)
 		(instances
 			(project ""
@@ -8906,71 +8600,6 @@
 			(project "solstrejf-voiceboard-core"
 				(path "/7d3f8c36-b7ba-4590-a2b1-082ed54fe832"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+15V")
-		(at 153.67 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d49cc657-e751-4138-8f5e-5c288314431f")
-		(property "Reference" "#PWR030"
-			(at 153.67 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+15V"
-			(at 153.67 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 153.67 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f68e76d-5cc0-42e9-8aff-2db2316b52c8")
-		)
-		(instances
-			(project "solstrejf-voiceboard-core"
-				(path "/7d3f8c36-b7ba-4590-a2b1-082ed54fe832"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9908,28 +9537,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "d3c2d0dc-e50d-43bd-82df-4286a89095c4")
+			(uuid "d3c2d0dc-e50d-43bd-82df-4286a89095c6")
 		)
 		(pin "7"
-			(uuid "9d64d336-2c89-4a51-aa28-e144ccfbf18f")
+			(uuid "9d64d336-2c89-4a51-aa28-e144ccfbf191")
 		)
 		(pin "2"
-			(uuid "671504fa-dad7-4d11-834d-f89b674bb084")
+			(uuid "671504fa-dad7-4d11-834d-f89b674bb086")
 		)
 		(pin "5"
-			(uuid "4c3fb034-62d8-41b8-9e78-3e5faeaa973a")
+			(uuid "4c3fb034-62d8-41b8-9e78-3e5faeaa973c")
 		)
 		(pin "6"
-			(uuid "05c9a03b-8a54-4bc4-bee0-e8182c425b95")
+			(uuid "05c9a03b-8a54-4bc4-bee0-e8182c425b97")
 		)
 		(pin "1"
-			(uuid "653a785c-18b9-4615-9d9a-c25ada9446ae")
+			(uuid "653a785c-18b9-4615-9d9a-c25ada9446b0")
 		)
 		(pin "3"
-			(uuid "2a4c042a-8e0a-4c63-9411-718257cd6340")
+			(uuid "2a4c042a-8e0a-4c63-9411-718257cd6342")
 		)
 		(pin "8"
-			(uuid "adc3523d-315f-4e0c-8e37-25137cd39851")
+			(uuid "adc3523d-315f-4e0c-8e37-25137cd39853")
 		)
 		(instances
 			(project ""
