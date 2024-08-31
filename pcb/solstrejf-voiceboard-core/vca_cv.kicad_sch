@@ -818,7 +818,7 @@
 				)
 			)
 		)
-		(symbol "Kromftronics_Custom:ONSHOT"
+		(symbol "Kromftronics_Custom:ONESHOT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -865,7 +865,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ONSHOT_0_1"
+			(symbol "ONESHOT_0_1"
 				(rectangle
 					(start -12.7 25.4)
 					(end 12.7 0)
@@ -878,7 +878,7 @@
 					)
 				)
 			)
-			(symbol "ONSHOT_1_1"
+			(symbol "ONESHOT_1_1"
 				(pin power_in line
 					(at 0 27.94 270)
 					(length 2.54)
@@ -2358,13 +2358,14 @@
 		)
 		(uuid "e7d119d7-067b-4683-b8f8-fb21f356bc54")
 	)
-	(text "Front Panel ONESHOT Envelope Control Signals - from Potentiometers"
+	(text "Front Panel ONESHOT Envelope Control Signals - from Potentiometers\nPlace close to the ONESHOT IC"
 		(exclude_from_sim no)
 		(at 81.026 48.768 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify bottom)
 		)
 		(uuid "eec5d328-2b29-4f08-800c-cd03dd208e46")
 	)
@@ -3103,7 +3104,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Kromftronics_Custom:ONSHOT")
+		(lib_id "Kromftronics_Custom:ONESHOT")
 		(at 76.2 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
