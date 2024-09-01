@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "Kromftronics_Custom")(type "KiCad")(uri "${KIPRJMOD}/../../kromftronics-custom-kicad/footprints")(options "")(descr "Custom Kromftronics Footprints"))
+  (lib (name "Kromftronics_Custom")(type "KiCad")(uri "${KIPRJMOD}/../../kromftronics-kicad-files/footprints")(options "")(descr "Custom Kromftronics Footprints"))
 )

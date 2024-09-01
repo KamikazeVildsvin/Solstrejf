@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "Kromftronics_Custom")(type "KiCad")(uri "${KIPRJMOD}/../../kromftronics-custom-kicad/symbols/Kromftronics_Custom.kicad_sym")(options "")(descr "Custom Kicad symbols used by Kromftronics"))
+  (lib (name "Kromftronics_Custom")(type "KiCad")(uri "${KIPRJMOD}/../../kromftronics-kicad-files/symbols/Kromftronics_Custom.kicad_sym")(options "")(descr "Custom Kicad symbols used by Kromftronics"))
 )
