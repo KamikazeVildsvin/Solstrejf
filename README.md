@@ -22,6 +22,12 @@ Four sine wave oscillators in itself are maybe not that interesting and can beco
 A modulation matrix, which would allow for all four voices to modulate parameters like frequency and amplitude on all other voices would create more complex soundscapes. 
 The basic idea and block diagram can be seen above, where four identical voice boards are connected to the mod-matrix board and a power supply/mixer board for output summation.
 
+###### Modulation Matrix & Voice Control Interface
+![Control Interface](images/control-interface/mod-matrix-and-voiceboard-control.png)
+
+The image above is a render of the modulation matrix and four of the voice board control front panels.
+This is essentialy user interface of the synthesizer.
+
 ## PCB's - KiCad Projects
 As indicated by the block diagram above, Solstrejf is broken into four different types of subblocks and PCB's:
 
@@ -63,12 +69,21 @@ Each voice can modulate the amplitude, frequency and pan of all other voices.
 ###### 3D Model : Back-Side 
 ![Mod-Matrix PCB Back](images/pcb-mod-matrix/PCB-and-3D-modmatrix-backside.png)
 
-### Voiceboard 
+### Voice board 
 Coming soon...
 
 [KiCad Project Files](pcb/solstrejf-voiceboard-core/)
 
-### Voiceboard Front Panel
-Coming soon...
+### Voice board Front Panel
+The voice board needs a control interface for the base pan, frequency, and volume. All of the potentiometers that control the voice board are located on this front panel for easier assembling. 
 
 [KiCad Project Files](pcb/solstrejf-voiceboard-frontpanel/)
+
+###### PCB 
+![Voice Board Control Panel PCB](images/pcb-voiceboard-frontpanel/PCB-with-dimensions.png)
+
+###### 3D Model : Front-Side
+![Voice Board Control Panel PCB Front](images/pcb-voiceboard-frontpanel/PCB-3D-model-sideview.png)
+
+###### 3D Model : Back-Side 
+![Voice Board Control Panel PCB Back](images/pcb-voiceboard-frontpanel/PCB-3D-model-backside.png)
