@@ -1,0 +1,36 @@
+<!DOCTYPE MeshLabDocument>
+<MeshLabProject>
+ <MeshGroup>
+  <MLMesh visible="1" idInFile="-1" label="voice1" filename="solstrejf-voiceboard-frontpanel.wrl">
+   <MLMatrix44>
+1 0 0 -0.0825578 0 1 0 0.229974 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointColor="252 233 79 255" wireWidth="1" boxColor="234 234 234 255" wireColor="64 64 64 255" solidColor="192 192 192 255" pointSize="3">100001010000000000000100000001010110000010100000000100111010100000001001</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" idInFile="-1" label="voice2" filename="solstrejf-voiceboard-frontpanel.wrl">
+   <MLMatrix44>
+1 0 0 -0.0824118 0 1 0 0.106 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointColor="252 233 79 255" wireWidth="1" boxColor="234 234 234 255" wireColor="64 64 64 255" solidColor="192 192 192 255" pointSize="3">100001010000000000000100000001010110000010100000000100111010100000001001</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" idInFile="-1" label="voice3" filename="solstrejf-voiceboard-frontpanel.wrl">
+   <MLMatrix44>
+1 0 0 0.124442 0 1 0 0.23 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointColor="252 233 79 255" wireWidth="1" boxColor="234 234 234 255" wireColor="64 64 64 255" solidColor="192 192 192 255" pointSize="3">100001010000000000000100000001010110000010100000000100111010100000001001</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" idInFile="-1" label="voice4" filename="solstrejf-voiceboard-frontpanel.wrl">
+   <MLMatrix44>
+1 0 0 0.124505 0 1 0 0.106 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointColor="252 233 79 255" wireWidth="1" boxColor="234 234 234 255" wireColor="64 64 64 255" solidColor="192 192 192 255" pointSize="3">100001010000000000000100000001010110000010100000000100111010100000001001</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" idInFile="-1" label="solstrejf-modmatrix-pots.wrl" filename="solstrejf-modmatrix-pots.wrl">
+   <MLMatrix44>
+1 0 0 0.0934624 0 1 0 0.197395 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointColor="252 233 79 255" wireWidth="1" boxColor="234 234 234 255" wireColor="64 64 64 255" solidColor="192 192 192 255" pointSize="3">100001010000000000000100000001010110000010100000000100111010100000001001</RenderingOption>
+  </MLMesh>
+ </MeshGroup>
+ <RasterGroup/>
+</MeshLabProject>

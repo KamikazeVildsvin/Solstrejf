@@ -484,9 +484,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../../../../Desktop/solstrejf-voiceboard-frontpanel.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "../../../../../../../Desktop/solstrejf-voiceboard-frontpanel.wrl"
     },
     "page_layout_descr_file": ""
   },
