@@ -54,6 +54,9 @@ Each voice can modulate the amplitude, frequency and pan of all other voices.
 
 [KiCad Project Files](pcb/solstrejf-modmatrix-pots)
 
+###### PCB 
+![Mod-Matrix PCB](images/pcb-mod-matrix/PCB-with-dimensions.png)
+
 ###### 3D Model : Front-Side
 ![Mod-Matrix PCB Front](images/pcb-mod-matrix/PCB-and-3D-modmatrix-frontside.png)
 
@@ -67,3 +70,5 @@ Coming soon...
 
 ### Voiceboard Front Panel
 Coming soon...
+
+[KiCad Project Files](pcb/solstrejf-voiceboard-frontpanel/)
