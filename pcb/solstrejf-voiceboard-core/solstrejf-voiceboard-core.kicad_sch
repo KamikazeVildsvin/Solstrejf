@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Solstrejf Voiceboard")
-		(date "2024-08-24")
+		(date "2024-09-02")
 		(rev "1.0")
 	)
 	(lib_symbols
@@ -3048,7 +3048,7 @@
 		(uuid "117a1bfc-807a-4fc0-8b8a-c663c3840015")
 	)
 	(junction
-		(at 30.48 125.73)
+		(at 36.83 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33a2b1a8-01d7-4258-8ede-952389239e6c")
@@ -3120,7 +3120,7 @@
 		(uuid "c03bb1e6-35af-4f04-bc60-af68ad63e834")
 	)
 	(junction
-		(at 30.48 130.81)
+		(at 36.83 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecdf132f-c995-49cd-9260-9405f5b7b4f1")
@@ -3223,7 +3223,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 132.08) (xy 33.02 132.08)
+			(xy 36.83 128.27) (xy 39.37 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3763,7 +3763,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 129.54) (xy 30.48 130.81)
+			(xy 36.83 125.73) (xy 36.83 127)
 		)
 		(stroke
 			(width 0)
@@ -3823,7 +3823,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 124.46) (xy 30.48 124.46)
+			(xy 39.37 120.65) (xy 36.83 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3833,7 +3833,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 124.46) (xy 30.48 125.73)
+			(xy 36.83 120.65) (xy 36.83 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3943,7 +3943,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 125.73) (xy 30.48 127)
+			(xy 36.83 121.92) (xy 36.83 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4053,7 +4053,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 127) (xy 33.02 127)
+			(xy 36.83 123.19) (xy 39.37 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4153,7 +4153,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 129.54) (xy 30.48 129.54)
+			(xy 39.37 125.73) (xy 36.83 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4303,7 +4303,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 125.73) (xy 30.48 125.73)
+			(xy 35.56 121.92) (xy 36.83 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4343,7 +4343,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 130.81) (xy 30.48 132.08)
+			(xy 36.83 127) (xy 36.83 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4499,13 +4499,23 @@
 	)
 	(text "Mod-Matrix\nConnector"
 		(exclude_from_sim no)
-		(at 39.37 148.844 0)
+		(at 45.72 145.034 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 			)
 		)
 		(uuid "9f97df7e-b5dd-40de-aed3-e051514067a9")
+	)
+	(text "Front Panel\nConnector"
+		(exclude_from_sim no)
+		(at 45.974 101.854 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "adc3432f-cdfe-43ba-8f4c-49b41464b0d2")
 	)
 	(text "PSU + Audio \nMixer Connector"
 		(exclude_from_sim no)
@@ -4567,18 +4577,8 @@
 		)
 		(uuid "ea343208-ed45-483e-ae95-93a478bf50b0")
 	)
-	(text "TODO: ADD CONNECTOR TO \nVOICEBOARD CONTROL PANEL"
-		(exclude_from_sim no)
-		(at 50.546 76.454 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-		)
-		(uuid "f258ae27-757f-4869-a93d-58da3d7b203f")
-	)
 	(label "PAN3"
-		(at 45.72 132.08 0)
+		(at 52.07 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4587,6 +4587,17 @@
 			(justify left bottom)
 		)
 		(uuid "013256f7-f049-4092-ad21-1fd48e534308")
+	)
+	(label "AMP_POT"
+		(at 39.37 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "045000c9-eae6-4b41-a97f-a602a422128a")
 	)
 	(label "PAN3"
 		(at 35.56 48.26 180)
@@ -4643,6 +4654,17 @@
 		)
 		(uuid "10b06321-e31b-4513-841e-735631ef9e06")
 	)
+	(label "ENV_IN"
+		(at 52.07 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10c65ef3-75d6-486c-a5a7-bd80143e113c")
+	)
 	(label "VCA4_OUT"
 		(at 171.45 132.08 180)
 		(fields_autoplaced yes)
@@ -4664,6 +4686,17 @@
 			(justify right)
 		)
 		(uuid "1b200a82-7f66-434c-9529-da0e3364c7c5")
+	)
+	(label "PAN_POT"
+		(at 52.07 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "211bfd4c-c4a5-4c0f-9159-01b1be0568e4")
 	)
 	(label "Cd"
 		(at 204.47 107.95 0)
@@ -4710,7 +4743,7 @@
 		(uuid "334fe6fa-05a3-41bc-ae85-1f34674356f5")
 	)
 	(label "AMP2"
-		(at 33.02 139.7 180)
+		(at 39.37 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4731,6 +4764,17 @@
 		)
 		(uuid "3c993e59-5135-47e4-bc74-864cd591c5df")
 	)
+	(label "ONESHOT_REPS"
+		(at 39.37 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ce625ab-aec8-4ca6-9def-a0d7c04ba2ef")
+	)
 	(label "Ca"
 		(at 204.47 115.57 0)
 		(fields_autoplaced yes)
@@ -4741,6 +4785,17 @@
 			(justify left bottom)
 		)
 		(uuid "40074b6b-5378-4479-b9a0-b77a2b40c9d7")
+	)
+	(label "ONESHOT_RATE"
+		(at 52.07 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42e0b425-1bf7-4270-9dad-0c75aba2f970")
 	)
 	(label "PAN2"
 		(at 35.56 44.45 180)
@@ -4754,7 +4809,7 @@
 		(uuid "43674831-a237-4ad3-9d32-306c23f10071")
 	)
 	(label "AMP1"
-		(at 33.02 142.24 180)
+		(at 39.37 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4853,7 +4908,7 @@
 		(uuid "53dcbdf3-5f48-47d7-b13a-7e6cbe719df3")
 	)
 	(label "FREQ4"
-		(at 45.72 127 0)
+		(at 52.07 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4895,6 +4950,17 @@
 			(justify right)
 		)
 		(uuid "6868d667-05cc-438c-aa8e-5316909ca532")
+	)
+	(label "ONESHOT_TYPE"
+		(at 39.37 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a334f25-24b6-4357-9a57-3efcef984af1")
 	)
 	(label "L_OUT"
 		(at 48.26 171.45 0)
@@ -4952,7 +5018,7 @@
 		(uuid "76021a7a-e242-460e-889a-f917fbede3a9")
 	)
 	(label "AMP3"
-		(at 45.72 137.16 0)
+		(at 52.07 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5029,7 +5095,7 @@
 		(uuid "93459777-f5b8-485f-98d4-325c3ba8532b")
 	)
 	(label "FREQ1"
-		(at 45.72 142.24 0)
+		(at 52.07 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5051,7 +5117,7 @@
 		(uuid "9ba0213a-cd20-40a4-b356-fc7ba35fa57b")
 	)
 	(label "PAN2"
-		(at 33.02 134.62 180)
+		(at 39.37 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5095,7 +5161,7 @@
 		(uuid "ae017cee-622c-48ae-bf3b-78fa0240b68e")
 	)
 	(label "FREQ3"
-		(at 45.72 134.62 0)
+		(at 52.07 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5139,7 +5205,7 @@
 		(uuid "ba9c8a58-2890-42f0-8dbc-37939d3369e9")
 	)
 	(label "PAN1"
-		(at 45.72 139.7 0)
+		(at 52.07 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5150,7 +5216,7 @@
 		(uuid "bb09d691-36c5-43b9-9232-7436d318107c")
 	)
 	(label "AMP4"
-		(at 45.72 129.54 0)
+		(at 52.07 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5171,6 +5237,17 @@
 		)
 		(uuid "c3bdf054-e6b3-40e9-970b-2665ac1b4d27")
 	)
+	(label "ENV_OUT"
+		(at 39.37 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca814064-034e-4113-9c19-adc3113209c3")
+	)
 	(label "Cntrl1"
 		(at 168.91 101.6 0)
 		(fields_autoplaced yes)
@@ -5183,7 +5260,7 @@
 		(uuid "ccc6c0f3-6185-4a2b-a69d-f7fd415e1930")
 	)
 	(label "FREQ2"
-		(at 33.02 137.16 180)
+		(at 39.37 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5205,7 +5282,7 @@
 		(uuid "d8912661-6aba-49e3-b835-1c02d886fe21")
 	)
 	(label "PAN4"
-		(at 45.72 124.46 0)
+		(at 52.07 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5216,7 +5293,7 @@
 		(uuid "da782f2d-f350-43d8-9039-201262789972")
 	)
 	(label "VOICE_TO_MOD"
-		(at 29.21 125.73 180)
+		(at 35.56 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5225,6 +5302,17 @@
 			(justify right)
 		)
 		(uuid "ddc5fd20-1c23-405e-b483-bd27d771ad93")
+	)
+	(label "FREQ_POT"
+		(at 52.07 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de7c4d5b-a81b-4d70-86ab-b7f99e54e3d9")
 	)
 	(label "PAN4"
 		(at 35.56 52.07 180)
@@ -5236,6 +5324,28 @@
 			(justify right)
 		)
 		(uuid "e20c5b53-1598-4957-82c7-5c12396b2f41")
+	)
+	(label "ONESHOT_TRIG"
+		(at 39.37 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e61b0c7c-9cde-4572-b49c-0aabef412e4e")
+	)
+	(label "ONESHOT_DEL"
+		(at 52.07 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea2960f4-da1c-4ec0-a3a5-b645fa041951")
 	)
 	(label "VCF_OUT"
 		(at 205.74 96.52 0)
@@ -5527,16 +5637,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 30.48 130.81 270)
+		(lib_id "power:-5V")
+		(at 52.07 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0f7ce624-3c07-4543-83ee-7c098f6e62c1")
-		(property "Reference" "#PWR028"
-			(at 24.13 130.81 0)
+		(fields_autoplaced yes)
+		(uuid "0e691734-06da-46f2-90fa-4a58d6acdf43")
+		(property "Reference" "#PWR065"
+			(at 48.26 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,17 +5655,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 27.432 130.81 90)
+		(property "Value" "-5V"
+			(at 55.88 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 130.81 0)
+			(at 52.07 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5563,7 +5674,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 130.81 0)
+			(at 52.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(at 52.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de23cea7-1db1-4f7c-b94d-321e88f1bf72")
+		)
+		(instances
+			(project "solstrejf-voiceboard-core"
+				(path "/7d3f8c36-b7ba-4590-a2b1-082ed54fe832"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f7ce624-3c07-4543-83ee-7c098f6e62c1")
+		(property "Reference" "#PWR028"
+			(at 30.48 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.782 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,7 +5749,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 130.81 0)
+			(at 36.83 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6617,7 +6794,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x05_Odd_Even"
+		(property "Value" "PSU+Power Connector"
 			(at 39.37 162.56 0)
 			(effects
 				(font
@@ -6753,6 +6930,73 @@
 			(project "solstrejf-voiceboard-core"
 				(path "/7d3f8c36-b7ba-4590-a2b1-082ed54fe832"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-5V")
+		(at 39.37 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57ec1043-7fea-452d-8d02-6916930ca17a")
+		(property "Reference" "#PWR064"
+			(at 43.18 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V"
+			(at 35.56 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(at 39.37 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1ac31fb-e0d0-43c7-8577-3f56df744057")
+		)
+		(instances
+			(project ""
+				(path "/7d3f8c36-b7ba-4590-a2b1-082ed54fe832"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -6957,6 +7201,140 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 39.37 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60a8505a-88f3-4ae5-9231-82d95bbe2e01")
+		(property "Reference" "#PWR068"
+			(at 33.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96c92ba8-803c-470c-9aab-84b94dd4fff1")
+		)
+		(instances
+			(project ""
+				(path "/7d3f8c36-b7ba-4590-a2b1-082ed54fe832"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63f68105-c002-4559-9309-b4ca0957efc6")
+		(property "Reference" "#PWR069"
+			(at 58.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae8dc36e-dd40-4642-a923-1d7dc9ee7ab1")
+		)
+		(instances
+			(project "solstrejf-voiceboard-core"
+				(path "/7d3f8c36-b7ba-4590-a2b1-082ed54fe832"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 68.58 172.72 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7017,6 +7395,73 @@
 			(project ""
 				(path "/7d3f8c36-b7ba-4590-a2b1-082ed54fe832"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 39.37 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "656db8f4-6ec9-4cd2-a156-e605c3238f83")
+		(property "Reference" "#PWR066"
+			(at 43.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 35.56 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 39.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7caa59b-d044-432d-99ae-3322530fa121")
+		)
+		(instances
+			(project ""
+				(path "/7d3f8c36-b7ba-4590-a2b1-082ed54fe832"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -7912,6 +8357,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 52.07 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aacba432-09bf-46fd-b8aa-a9639249d11e")
+		(property "Reference" "#PWR067"
+			(at 48.26 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 55.88 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 52.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee683965-4954-4371-a085-12df93330304")
+		)
+		(instances
+			(project "solstrejf-voiceboard-core"
+				(path "/7d3f8c36-b7ba-4590-a2b1-082ed54fe832"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 266.7 123.19 0)
 		(unit 1)
@@ -8371,6 +8883,116 @@
 			(project "solstrejf-voiceboard-core"
 				(path "/7d3f8c36-b7ba-4590-a2b1-082ed54fe832"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x08_Odd_Even")
+		(at 44.45 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c849c8e9-800b-48ea-ad31-e34f59e6467c")
+		(property "Reference" "J4"
+			(at 45.72 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Front Panel Connector"
+			(at 45.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "67ee1fc0-f655-4989-aede-4725f53a7241")
+		)
+		(pin "15"
+			(uuid "678b581e-de5f-48ab-9228-ad47f811ac65")
+		)
+		(pin "7"
+			(uuid "aa390667-3cc6-4c3d-b004-329d71aaeb9d")
+		)
+		(pin "14"
+			(uuid "1e2712f7-0f39-4d87-ae1f-f713c6f39e69")
+		)
+		(pin "9"
+			(uuid "3cc8649a-ba4e-4a69-9a6e-ef0faecc0189")
+		)
+		(pin "3"
+			(uuid "cc92669f-e539-4d24-b7ed-b0ce0e430276")
+		)
+		(pin "2"
+			(uuid "3f2c473e-acb2-41fe-9195-db5007548608")
+		)
+		(pin "4"
+			(uuid "09fe1ac0-8697-4d9a-9cb7-0a703e9d0de5")
+		)
+		(pin "6"
+			(uuid "2f1983de-3f0f-457c-a26b-193423e3fb88")
+		)
+		(pin "13"
+			(uuid "41bdb8bb-c4d4-4d06-967e-13895db52213")
+		)
+		(pin "1"
+			(uuid "fde604f6-31ea-43ac-83dc-c08747093761")
+		)
+		(pin "12"
+			(uuid "28baea9f-753c-4e18-b578-95c1ae7ffed7")
+		)
+		(pin "16"
+			(uuid "916434bc-ed1b-4cb9-864a-8d9576064e1a")
+		)
+		(pin "11"
+			(uuid "0a6b51f7-6802-4f98-a297-7482e3860d03")
+		)
+		(pin "10"
+			(uuid "fe3ee074-92b4-4760-a716-c8e1ee5759e8")
+		)
+		(pin "8"
+			(uuid "47fea3e8-77a4-4a36-abfe-5fbc21616dce")
+		)
+		(instances
+			(project "solstrejf-voiceboard-core"
+				(path "/7d3f8c36-b7ba-4590-a2b1-082ed54fe832"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -9814,7 +10436,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x08_Odd_Even")
-		(at 38.1 132.08 0)
+		(at 44.45 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9823,15 +10445,15 @@
 		(fields_autoplaced yes)
 		(uuid "fafe075e-7765-45e8-ace0-06e336a27ac5")
 		(property "Reference" "J2"
-			(at 39.37 118.11 0)
+			(at 45.72 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_02x08_Odd_Even"
-			(at 39.37 120.65 0)
+		(property "Value" "Mod-Matrix Connector"
+			(at 45.72 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9839,7 +10461,7 @@
 			)
 		)
 		(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
-			(at 38.1 132.08 0)
+			(at 44.45 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9848,7 +10470,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 132.08 0)
+			(at 44.45 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9857,7 +10479,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 38.1 132.08 0)
+			(at 44.45 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
