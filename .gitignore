@@ -1,6 +1,5 @@
 *.DS_Store
 *.ipynb_checkpoints*
-pcb/solstrejf-modmatrix-pots/solstrejf-modmatrix-pots-backup*
 *backup*
 *.lck
 *.log
@@ -10,3 +9,4 @@ pcb/solstrejf-modmatrix-pots/solstrejf-modmatrix-pots-backup*
 *fabrication-toolkit-options.json
 *production
 *.plt
+*.zip
