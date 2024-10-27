@@ -70,9 +70,19 @@ Each voice can modulate the amplitude, frequency and pan of all other voices.
 ![Mod-Matrix PCB Back](images/pcb-mod-matrix/PCB-and-3D-modmatrix-backside.png)
 
 ### Voice board 
-Coming soon...
+The voice board is the actual sinewave oscillator and control voltage board.
+Solstrejf consists of four of these voice boards.
 
 [KiCad Project Files](pcb/solstrejf-voiceboard-core/)
+
+###### PCB
+![Voice Board PCB](images/pcb-voiceboard-core/PCB-REV1.png)
+
+###### 3D Model : Top View
+![Voice Board 3D Render Top View](images/pcb-voiceboard-core/3D-render-top-REV1.png)
+
+###### 3D Model : Side View
+![Voice Board 3D Render Top View](images/pcb-voiceboard-core/3D-sideview-render-REV1.png)
 
 ### Voice board Front Panel
 The voice board needs a control interface for the base pan, frequency, and volume. All of the potentiometers that control the voice board are located on this front panel for easier assembling. 
@@ -82,8 +92,8 @@ The voice board needs a control interface for the base pan, frequency, and volum
 ###### PCB 
 ![Voice Board Control Panel PCB](images/pcb-voiceboard-frontpanel/PCB-with-dimensions.png)
 
-###### 3D Model : Front-Side
+###### 3D Model : Front Side
 ![Voice Board Control Panel PCB Front](images/pcb-voiceboard-frontpanel/PCB-3D-model-sideview.png)
 
-###### 3D Model : Back-Side 
+###### 3D Model : Back Side 
 ![Voice Board Control Panel PCB Back](images/pcb-voiceboard-frontpanel/PCB-3D-model-backside.png)

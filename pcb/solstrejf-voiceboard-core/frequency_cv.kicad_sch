@@ -3109,7 +3109,7 @@
 				)
 			)
 		)
-		(property "Value" "L79L12_TO92"
+		(property "Value" "L79L12"
 			(at 123.19 148.59 0)
 			(effects
 				(font
@@ -3890,7 +3890,7 @@
 				)
 			)
 		)
-		(property "Value" "L78L12_TO92"
+		(property "Value" "L78L12"
 			(at 124.46 35.56 0)
 			(effects
 				(font

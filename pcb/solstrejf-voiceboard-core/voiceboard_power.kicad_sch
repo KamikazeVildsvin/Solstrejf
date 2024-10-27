@@ -3777,7 +3777,7 @@
 				)
 			)
 		)
-		(property "Value" "L79L05_TO92"
+		(property "Value" "L79L05"
 			(at 158.75 104.14 0)
 			(effects
 				(font
@@ -3849,7 +3849,7 @@
 				)
 			)
 		)
-		(property "Value" "L78L05_TO92"
+		(property "Value" "L78L05"
 			(at 158.75 71.12 0)
 			(effects
 				(font
