@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Solstrejf Voice Board Front Panel")
-		(date "2024-08-31")
+		(date "2024-10-28")
 		(rev "REV 1.0")
 	)
 	(lib_symbols
@@ -1526,9 +1526,9 @@
 		)
 		(uuid "4c3df067-dde6-4a42-8e64-0e78637a071f")
 	)
-	(text "Volume slide\npotentiometer"
+	(text "Volume slide\npotentiometer\n+5V -> minimum amplitude\n0V -> maximum amplitude"
 		(exclude_from_sim no)
-		(at 146.304 118.11 0)
+		(at 147.574 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3620,16 +3620,14 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 127 118.11 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b9ef7fad-8a81-4b29-9889-d357f5a23039")
 		(property "Reference" "RV7"
-			(at 124.46 119.3801 0)
+			(at 124.46 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3638,7 +3636,7 @@
 			)
 		)
 		(property "Value" "B10k"
-			(at 124.46 116.8401 0)
+			(at 124.46 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
