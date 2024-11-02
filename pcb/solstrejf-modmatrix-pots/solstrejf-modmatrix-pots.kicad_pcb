@@ -7,6 +7,11 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Solstrejf Modulation Matrix")
+		(date "2024-11-02")
+		(rev "1.0")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
@@ -3504,7 +3509,7 @@
 				)
 			)
 		)
-		(property "Value" "B10k"
+		(property "Value" "B10K"
 			(at 17.1958 0.7366 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -4698,7 +4703,7 @@
 				)
 			)
 		)
-		(property "Value" "B10k"
+		(property "Value" "B10K"
 			(at 17.1958 0.7366 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -6612,7 +6617,7 @@
 				)
 			)
 		)
-		(property "Value" "B10k"
+		(property "Value" "B10K"
 			(at 17.1958 0.7366 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -8052,7 +8057,7 @@
 				)
 			)
 		)
-		(property "Value" "B10k"
+		(property "Value" "B10K"
 			(at 17.1958 0.7366 -90)
 			(unlocked yes)
 			(layer "F.SilkS")

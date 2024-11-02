@@ -2787,7 +2787,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "B10k"
+		(property "Value" "B10K"
 			(at 86.36 58.4199 0)
 			(effects
 				(font
