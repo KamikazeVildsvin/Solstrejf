@@ -11178,7 +11178,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1u 25V"
 			(at 1.25 3.75 0)
 			(layer "F.SilkS")
 			(uuid "be1cc865-6a5a-4823-89e1-fdec81ca4605")
@@ -30992,7 +30992,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1u 25V"
 			(at 1.27 -3.81 0)
 			(layer "F.SilkS")
 			(uuid "1133f40f-0ccf-4816-9ad9-863a7bcc6349")
@@ -41924,7 +41924,7 @@
 				)
 			)
 		)
-		(property "Value" "100u 25v"
+		(property "Value" "100u 25V"
 			(at 1.25 4.4 0)
 			(layer "F.SilkS")
 			(uuid "754654db-afa8-4ab6-b425-2bdc4a2ed3a7")

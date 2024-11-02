@@ -2758,7 +2758,7 @@
 		(uuid "fea728e6-b86e-470f-bfb8-9bf229b48252")
 	)
 	(rectangle
-		(start 102.87 26.67)
+		(start 99.06 26.67)
 		(end 146.05 55.88)
 		(stroke
 			(width 0)
@@ -2770,7 +2770,7 @@
 		(uuid 55b8c316-8e30-44b4-aaa9-0018fd8da06a)
 	)
 	(rectangle
-		(start 104.14 125.73)
+		(start 99.06 125.73)
 		(end 146.05 153.67)
 		(stroke
 			(width 0)
@@ -3182,7 +3182,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1u 25V"
 			(at 108.712 43.434 0)
 			(effects
 				(font
@@ -4182,7 +4182,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1u 25V"
 			(at 108.204 139.192 0)
 			(effects
 				(font

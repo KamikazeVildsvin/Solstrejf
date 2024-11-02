@@ -3639,7 +3639,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u 25v"
+		(property "Value" "100u 25V"
 			(at 85.09 94.3609 0)
 			(effects
 				(font
