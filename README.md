@@ -29,7 +29,7 @@ The image above is a render of the modulation matrix and four of the voice board
 This is essentialy user interface of the synthesizer.
 
 ## PCB's - KiCad Projects
-As indicated by the block diagram above, Solstrejf is broken into four different types of subblocks and PCB's:
+As indicated by the block diagram above, Solstrejf is broken into four different sub-blocks and PCB's:
 
 - A Power Supply Unit (PSU) & Mixer PCB
 - A Modulation Matrix PCB
@@ -40,10 +40,17 @@ Each of these PCB's have their own KiCad project with an associated schematic.
 The [`schematics`](schematics) directory contains some of the latest prints of the different schematics. 
 The revision may not match with the KiCad files, so be sure to double check the actual KiCad project files to be certain.
 
+#### Interactive BOM
+All of the four PCB's have an interactive BOM which is generated using the [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom) KiCad plugin.
+The interactive bom allows to see where the components should be placed on the board and also have a checklist build in, which makes it much easier to assemble the PCB's.
+You can also export the BOM to a CSV or TXT file for a more traditional BOM.
+
 ### PSU / Audio Mixer
 Use to generate the +/-15V supply and sum all of the left and right audio channels of the four voices.
 
 [KiCad Project Files](pcb/solstrejf-PSU-mixer/)
+
+[Link to interactive BOM](https://html-preview.github.io/?url=https://github.com/KamikazeVildsvin/Solstrejf/blob/master/pcb/solstrejf-PSU-mixer/bom/ibom.html)
 
 ###### PCB
 ![PSU/audio-mixer PCB](images/pcb-PSU-audio-mixer/PCB-REV1.png)
@@ -60,6 +67,8 @@ Each voice can modulate the amplitude, frequency and pan of all other voices.
 
 [KiCad Project Files](pcb/solstrejf-modmatrix-pots)
 
+[Link to interactive BOM](https://html-preview.github.io/?url=https://github.com/KamikazeVildsvin/Solstrejf/blob/master/pcb/solstrejf-modmatrix-pots/bom/ibom.html)
+
 ###### PCB 
 ![Mod-Matrix PCB](images/pcb-mod-matrix/PCB-with-dimensions.png)
 
@@ -75,6 +84,8 @@ Solstrejf consists of four of these voice boards.
 
 [KiCad Project Files](pcb/solstrejf-voiceboard-core/)
 
+[Link to interactive BOM](https://html-preview.github.io/?url=https://github.com/KamikazeVildsvin/Solstrejf/blob/master/pcb/solstrejf-voiceboard-core/bom/ibom.html)
+
 ###### PCB
 ![Voice Board PCB](images/pcb-voiceboard-core/PCB-REV1.png)
 
@@ -88,6 +99,8 @@ Solstrejf consists of four of these voice boards.
 The voice board needs a control interface for the base pan, frequency, and volume. All of the potentiometers that control the voice board are located on this front panel for easier assembling. 
 
 [KiCad Project Files](pcb/solstrejf-voiceboard-frontpanel/)
+
+[Link to interactive BOM](https://html-preview.github.io/?url=https://github.com/KamikazeVildsvin/Solstrejf/blob/master/pcb/solstrejf-voiceboard-frontpanel/bom/ibom.html)
 
 ###### PCB 
 ![Voice Board Control Panel PCB](images/pcb-voiceboard-frontpanel/PCB-with-dimensions.png)
