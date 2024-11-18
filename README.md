@@ -119,7 +119,7 @@ It was very easy to order from PCBWay using the [PCBWay KiCad Export Plugin](htt
 With one click, all of the needed Gerber and drill files were created and packaged in a neat zip file that could be uploaded directly to PCBWay's website for ordering.
 
 I'm very satisfied with the build quality of the PCBs that I have received for my first prototype of Solstrejf.
-The silkscreen and edge cuts were very smooth and pleasant to look at, which especially is for the modulation matrix and the voice board front panels.
+The silkscreen and edge cuts were very smooth and pleasant to look at, which especially is nice for the modulation matrix and the voice board front panels (since the user has to look at these PCBs).
 
 Thanks to PCBWay for sponsoring the prototype PCBs.
 
