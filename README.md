@@ -1,7 +1,7 @@
-# Solstrejf - 4 Voice Sinewave Drone Oscillator
+# Solstrejf - 4 Voice Sine Wave Drone Oscillator
 This repository contains the simulation, schematic ,and PCB files for **Solstrejf**.
 Some custom KiCad footprints, 3D models, and symbols are used in this project. 
-This is included as a git submodule, which means that this repo should be cloned with the `--recursive` option like so: 
+This is included as a git submodule, which means that if you want to work with the KiCad projects in this repo, it should be cloned with the `--recursive` option like so: 
 
 ```
 git clone --recursive "https://github.com/KamikazeVildsvin/Solstrejf.git"
@@ -15,7 +15,7 @@ At that moment I thought, what if I could create an instrument that would be abl
 A sine wave drone synthesizer came to my mind, similar to the early Musique Concrète test equipment techniques.
 
 ###### Block Diagram
-![Solstrejf Blockdiagram](images/blockdiagrams/blokdiagram-solstrejf.jpeg)
+![Solstrejf Block Diagram](images/blockdiagrams/blokdiagram-solstrejf.jpeg)
 
 I wanted the instrument to be playful and interactive. 
 Four sine wave oscillators in itself are maybe not that interesting and can become static. 
@@ -26,15 +26,15 @@ The basic idea and block diagram can be seen above, where four identical voice b
 ![Control Interface](images/control-interface/mod-matrix-and-voiceboard-control.png)
 
 The image above is a render of the modulation matrix and four of the voice board control front panels.
-This is essentialy user interface of the synthesizer.
+This is essentially user interface of the synthesizer.
 
 ## PCB's - KiCad Projects
 As indicated by the block diagram above, Solstrejf is broken into four different sub-blocks and PCB's:
 
 - A Power Supply Unit (PSU) & Mixer PCB
 - A Modulation Matrix PCB
-- A Voiceboard PCB (x4)
-- A Voiceboard Front Panel PCB (x4)
+- A Voice board PCB (x4)
+- A Voice board Front Panel PCB (x4)
 
 Each of these PCB's have their own KiCad project with an associated schematic. 
 The [`schematics`](schematics) directory contains some of the latest prints of the different schematics. 
@@ -79,7 +79,7 @@ Each voice can modulate the amplitude, frequency and pan of all other voices.
 ![Mod-Matrix PCB Back](images/pcb-mod-matrix/PCB-and-3D-modmatrix-backside.png)
 
 ### Voice board 
-The voice board is the actual sinewave oscillator and control voltage board.
+The voice board is the actual sine wave oscillator and control voltage board.
 Solstrejf consists of four of these voice boards.
 
 [KiCad Project Files](pcb/solstrejf-voiceboard-core/)
@@ -110,3 +110,17 @@ The voice board needs a control interface for the base pan, frequency, and volum
 
 ###### 3D Model : Back Side 
 ![Voice Board Control Panel PCB Back](images/pcb-voiceboard-frontpanel/PCB-3D-model-backside.png)
+
+# Prototype Sponsorship - PCBWay
+[PCBway](https://www.pcbway.com/) was so kind to reach out and offer to sponsor the first batch of all four PCBs for Solstrejf!
+Essentially, they paid for the production of 5x of each of the four PCBs, which was a great help to reduce the cost of this project.
+
+It was very easy to order from PCBWay using the [PCBWay KiCad Export Plugin](https://github.com/pcbway/PCBWay-Plug-in-for-Kicad).
+With one click, all of the needed Gerber and drill files were created and packaged in a neat zip file that could be uploaded directly to PCBWay's website for ordering.
+
+I'm very satisfied with the build quality of the PCBs that I have received for my first prototype of Solstrejf.
+The silkscreen and edge cuts were very smooth and pleasant to look at, which especially is for the modulation matrix and the voice board front panels.
+
+Thanks to PCBWay for sponsoring the prototype PCBs.
+
+*pictures coming soon...*

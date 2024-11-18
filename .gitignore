@@ -10,3 +10,4 @@
 *production
 *.plt
 *.zip
+.vscode
