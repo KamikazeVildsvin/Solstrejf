@@ -4694,7 +4694,7 @@
 		(layer "Edge.Cuts")
 		(uuid "3eb357a2-c6cc-4869-9b62-3fd060dfdcae")
 	)
-	(gr_text "Solstrejf // Voice Board\nControl Panel Rev 1.0"
+	(gr_text "Solstrejf // Voice Board\nControl Panel Rev ${REVISION}"
 		(at 139.7 56.134 0)
 		(layer "B.SilkS")
 		(uuid "723988c4-fb98-4405-9513-c14543017d08")

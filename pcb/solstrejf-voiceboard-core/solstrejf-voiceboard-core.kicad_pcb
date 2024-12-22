@@ -11,6 +11,7 @@
 		(title "Solstrejf Voice Board")
 		(date "2024-11-02")
 		(rev "1.0")
+		(company "Kromftronics")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -33321,7 +33322,7 @@
 				)
 			)
 		)
-		(property "Value" "PSU+Power Connector"
+		(property "Value" "PSU+Mixer Connector"
 			(at 6.985 5.08 0)
 			(layer "F.SilkS")
 			(uuid "44b08da7-5323-4962-a415-dd4ce336c284")
@@ -45935,7 +45936,7 @@
 		(layer "Edge.Cuts")
 		(uuid "e5020da2-d172-4bf1-a78f-73fdfb1df202")
 	)
-	(gr_text "// Solstrejf // \nVoice Board Rev1\nKromftronics 2024"
+	(gr_text "// Solstrejf // \nVoice Board Rev${REVISION}\n${COMPANY}\n${ISSUE_DATE}"
 		(at 156.21 77.47 0)
 		(layer "F.SilkS")
 		(uuid "0357ba69-756d-48bb-a9b4-d8e23d564c90")

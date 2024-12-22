@@ -25387,7 +25387,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Kromftronics // Solfstrejf ModMatrix Rev 1.0"
+	(gr_text "Kromftronics // Solfstrejf ModMatrix Rev ${REVISION}"
 		(at 64.897 53.860954 0)
 		(layer "B.SilkS")
 		(uuid "cf76cf1c-306e-4cce-b8c8-266c859996a5")

@@ -11,6 +11,7 @@
 		(title "Solstrejf PSU & Stereo Mixer")
 		(date "2024-11-02")
 		(rev "1.0")
+		(company "Kromftronics")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -23681,7 +23682,7 @@
 			(justify top)
 		)
 	)
-	(gr_text "Solstrejf REV1 // PSU & Audio Mixer"
+	(gr_text "Solstrejf REV${REVISION} // PSU & Audio Mixer"
 		(at 146.05 100.965 0)
 		(layer "F.SilkS")
 		(uuid "439e87b3-e154-4c58-8aa6-a310d03c1180")
@@ -23745,8 +23746,8 @@
 			(justify top)
 		)
 	)
-	(gr_text "Kromftronics 2024"
-		(at 125.095 100.965 0)
+	(gr_text "${COMPANY} ${ISSUE_DATE}"
+		(at 121.666 100.965 0)
 		(layer "F.SilkS")
 		(uuid "97044071-d932-47c9-9f7a-7e1e83e1feb9")
 		(effects
