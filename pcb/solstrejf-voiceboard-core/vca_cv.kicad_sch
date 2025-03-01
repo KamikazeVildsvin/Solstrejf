@@ -1,13 +1,13 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "a10e2030-b777-481f-ae58-200fa661b757")
 	(paper "A4")
 	(title_block
 		(title "VCA Control Voltage Summing Amplifier")
-		(date "2024-10-28")
-		(rev "1.0")
+		(date "2025-03-01")
+		(rev "1.1")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LM324"
@@ -101,17 +101,17 @@
 						(type background)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -137,17 +137,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -255,24 +255,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 -2.54 0)
 					(length 2.54)
@@ -284,6 +266,24 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -362,24 +362,6 @@
 			)
 			(symbol "LM324_5_1"
 				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
 					(name "V+"
@@ -397,10 +379,31 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -473,7 +476,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -485,7 +488,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -534,9 +537,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -655,10 +661,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Diode:1N4148"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -756,10 +767,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -768,10 +779,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -817,6 +828,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Kromftronics_Custom:ONESHOT"
 			(exclude_from_sim no)
@@ -879,24 +891,6 @@
 				)
 			)
 			(symbol "ONESHOT_1_1"
-				(pin power_in line
-					(at 0 27.94 270)
-					(length 2.54)
-					(name "+5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -15.24 17.78 0)
 					(length 2.54)
@@ -908,42 +902,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 12.7 180)
-					(length 2.54)
-					(name "PDM_OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 7.62 0)
-					(length 2.54)
-					(name "TRIGGER"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1005,6 +963,42 @@
 						)
 					)
 				)
+				(pin input line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "TRIGGER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 27.94 270)
+					(length 2.54)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at 0 -2.54 90)
 					(length 2.54)
@@ -1023,13 +1017,36 @@
 						)
 					)
 				)
+				(pin output line
+					(at 15.24 12.7 180)
+					(length 2.54)
+					(name "PDM_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1101,7 +1118,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1113,7 +1130,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1144,12 +1161,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:-5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1240,12 +1262,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1336,7 +1363,165 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 25.4 50.8)
+		(end 139.7 101.6)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 66cb0534-8361-4247-844b-057ec4ca50ef)
+	)
+	(rectangle
+		(start 85.09 128.27)
+		(end 135.89 172.72)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ac5c0a7b-2708-4c53-808c-ee2b88a06412)
+	)
+	(text "Amp CV from voice 1"
+		(exclude_from_sim no)
+		(at 163.83 70.612 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0708caf2-11c3-4974-b778-d4f9b3190ff0")
+	)
+	(text "Offset voltage for\ncorrect CV scaling"
+		(exclude_from_sim no)
+		(at 165.1 121.666 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "12df6afd-8c8f-4e4f-8f13-b99c443ca25e")
+	)
+	(text "Oneshot envelope output\ngoes to front panel for\namount control"
+		(exclude_from_sim no)
+		(at 152.146 146.558 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2385674e-c3a2-4cb9-8cd6-de544956169f")
+	)
+	(text "Amp CV from voice 2"
+		(exclude_from_sim no)
+		(at 163.83 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "26f8ba93-ca40-494a-b573-2e1a9d40b127")
+	)
+	(text "PDM Filtering"
+		(exclude_from_sim no)
+		(at 110.49 126.492 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4be48379-a659-46a7-b6df-d26a0e277c04")
+	)
+	(text "Place close to IC"
+		(exclude_from_sim no)
+		(at 58.42 125.476 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6e4fa7a5-23a0-4f7a-976e-47f7f8fe57be")
+	)
+	(text "Amp potentiometer: 0-5V"
+		(exclude_from_sim no)
+		(at 163.576 57.658 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7d3c6136-dc4c-452f-956c-2ab324f3b56e")
+	)
+	(text "Falling edge\ntrigger signal\n5V -> 0V : trigger"
+		(exclude_from_sim no)
+		(at 36.576 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ccd70cd2-d394-4cb7-a9ba-201a1f763149")
+	)
+	(text "16.93kHz lowpass"
+		(exclude_from_sim no)
+		(at 220.98 73.406 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e443f136-9f8c-4fee-8c3d-416ebab58073")
+	)
+	(text "second-order inverting \nunity passband gain \nlowpass filter"
+		(exclude_from_sim no)
+		(at 99.568 141.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "e7d119d7-067b-4683-b8f8-fb21f356bc54")
+	)
+	(text "Front Panel ONESHOT Envelope Control Signals - from Potentiometers\nPlace close to the ONESHOT IC"
+		(exclude_from_sim no)
+		(at 81.026 48.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "eec5d328-2b29-4f08-800c-cd03dd208e46")
+	)
+	(text "Amp CV from voice 3"
+		(exclude_from_sim no)
+		(at 163.576 97.028 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "effb450c-1e9b-4ccb-810c-d67e1f6a150a")
+	)
+	(text "Amp CV from voice 4"
+		(exclude_from_sim no)
+		(at 164.084 109.728 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe0922f5-82cc-4724-8bb1-ee24b60fd97d")
 	)
 	(junction
 		(at 212.09 91.44)
@@ -2252,166 +2437,8 @@
 		)
 		(uuid "f8a4f0e9-22dd-47a4-9a42-3c0fc9fdb908")
 	)
-	(rectangle
-		(start 25.4 50.8)
-		(end 139.7 101.6)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 66cb0534-8361-4247-844b-057ec4ca50ef)
-	)
-	(rectangle
-		(start 85.09 128.27)
-		(end 135.89 172.72)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ac5c0a7b-2708-4c53-808c-ee2b88a06412)
-	)
-	(text "Amp CV from voice 1"
-		(exclude_from_sim no)
-		(at 163.83 70.612 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0708caf2-11c3-4974-b778-d4f9b3190ff0")
-	)
-	(text "Offset voltage for\ncorrect CV scaling"
-		(exclude_from_sim no)
-		(at 165.1 121.666 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify bottom)
-		)
-		(uuid "12df6afd-8c8f-4e4f-8f13-b99c443ca25e")
-	)
-	(text "Oneshot envelope output\ngoes to front panel for\namount control"
-		(exclude_from_sim no)
-		(at 152.146 146.558 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2385674e-c3a2-4cb9-8cd6-de544956169f")
-	)
-	(text "Amp CV from voice 2"
-		(exclude_from_sim no)
-		(at 163.83 84.328 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "26f8ba93-ca40-494a-b573-2e1a9d40b127")
-	)
-	(text "PDM Filtering"
-		(exclude_from_sim no)
-		(at 110.49 126.492 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4be48379-a659-46a7-b6df-d26a0e277c04")
-	)
-	(text "Place close to IC"
-		(exclude_from_sim no)
-		(at 58.42 125.476 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6e4fa7a5-23a0-4f7a-976e-47f7f8fe57be")
-	)
-	(text "Amp potentiometer: 0-5V"
-		(exclude_from_sim no)
-		(at 163.576 57.658 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7d3c6136-dc4c-452f-956c-2ab324f3b56e")
-	)
-	(text "Falling edge\ntrigger signal\n5V -> 0V : trigger"
-		(exclude_from_sim no)
-		(at 36.576 163.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ccd70cd2-d394-4cb7-a9ba-201a1f763149")
-	)
-	(text "16.93kHz lowpass"
-		(exclude_from_sim no)
-		(at 220.98 73.406 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e443f136-9f8c-4fee-8c3d-416ebab58073")
-	)
-	(text "second-order inverting \nunity passband gain \nlowpass filter"
-		(exclude_from_sim no)
-		(at 99.568 141.224 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify bottom)
-		)
-		(uuid "e7d119d7-067b-4683-b8f8-fb21f356bc54")
-	)
-	(text "Front Panel ONESHOT Envelope Control Signals - from Potentiometers\nPlace close to the ONESHOT IC"
-		(exclude_from_sim no)
-		(at 81.026 48.768 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify bottom)
-		)
-		(uuid "eec5d328-2b29-4f08-800c-cd03dd208e46")
-	)
-	(text "Amp CV from voice 3"
-		(exclude_from_sim no)
-		(at 163.576 97.028 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "effb450c-1e9b-4ccb-810c-d67e1f6a150a")
-	)
-	(text "Amp CV from voice 4"
-		(exclude_from_sim no)
-		(at 164.084 109.728 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fe0922f5-82cc-4724-8bb1-ee24b60fd97d")
-	)
 	(label "DEL_LP"
 		(at 120.65 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2422,7 +2449,6 @@
 	)
 	(label "RATE_LP"
 		(at 48.26 154.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2433,7 +2459,6 @@
 	)
 	(label "PDM_OUT"
 		(at 80.01 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2444,7 +2469,6 @@
 	)
 	(label "TYPE_LP"
 		(at 48.26 152.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2455,7 +2479,6 @@
 	)
 	(label "CLIP_+_VCA"
 		(at 227.33 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2466,7 +2489,6 @@
 	)
 	(label "REPS_LP"
 		(at 48.26 147.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2477,7 +2499,6 @@
 	)
 	(label "RATE_LP"
 		(at 69.85 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2488,7 +2509,6 @@
 	)
 	(label "virtual_gnd_VCAcv"
 		(at 191.77 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -2499,7 +2519,6 @@
 	)
 	(label "DEL_LP"
 		(at 48.26 149.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2510,7 +2529,6 @@
 	)
 	(label "REPS_LP"
 		(at 120.65 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2521,7 +2539,6 @@
 	)
 	(label "TYPE_LP"
 		(at 69.85 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2532,7 +2549,6 @@
 	)
 	(label "CLIP_-_VCA"
 		(at 227.33 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2544,7 +2560,6 @@
 	(hierarchical_label "AMP_CV"
 		(shape output)
 		(at 254 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2556,7 +2571,6 @@
 	(hierarchical_label "ONESHOT_DEL"
 		(shape input)
 		(at 101.6 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2568,7 +2582,6 @@
 	(hierarchical_label "ONESHOT_TRIG"
 		(shape input)
 		(at 38.1 157.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2580,7 +2593,6 @@
 	(hierarchical_label "AMP4"
 		(shape input)
 		(at 165.1 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2592,7 +2604,6 @@
 	(hierarchical_label "ENV_FROM_FRONTPANEL"
 		(shape input)
 		(at 165.1 137.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2604,7 +2615,6 @@
 	(hierarchical_label "AMP1"
 		(shape input)
 		(at 165.1 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2616,7 +2626,6 @@
 	(hierarchical_label "ONESHOT_ENV_OUT"
 		(shape output)
 		(at 140.97 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2628,7 +2637,6 @@
 	(hierarchical_label "AMP_POT"
 		(shape input)
 		(at 165.1 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2640,7 +2648,6 @@
 	(hierarchical_label "ONESHOT_TYPE"
 		(shape input)
 		(at 50.8 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2652,7 +2659,6 @@
 	(hierarchical_label "ONESHOT_REPS"
 		(shape input)
 		(at 101.6 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2664,7 +2670,6 @@
 	(hierarchical_label "AMP2"
 		(shape input)
 		(at 165.1 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2676,7 +2681,6 @@
 	(hierarchical_label "ONESHOT_RATE"
 		(shape input)
 		(at 50.8 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2688,7 +2692,6 @@
 	(hierarchical_label "AMP3"
 		(shape input)
 		(at 165.1 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
