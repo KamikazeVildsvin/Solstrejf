@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Frequency Control Voltage Summing Amplifier")
-		(date "2025-03-01")
+		(date "2025-03-02")
 		(rev "1.1")
 	)
 	(lib_symbols
@@ -3998,7 +3998,7 @@
 				)
 			)
 		)
-		(property "Value" "14k"
+		(property "Value" "15k"
 			(at 92.71 67.31 90)
 			(effects
 				(font
