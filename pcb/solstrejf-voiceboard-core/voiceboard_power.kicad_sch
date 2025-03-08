@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Soltrejf Voiceboard Power")
-		(date "2025-03-02")
+		(date "2025-03-08")
 		(rev "1.1")
 	)
 	(lib_symbols
@@ -3959,7 +3959,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330n"
+		(property "Value" "100n"
 			(at 142.494 93.98 0)
 			(effects
 				(font
@@ -4853,7 +4853,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330n"
+		(property "Value" "100n"
 			(at 142.494 81.28 0)
 			(effects
 				(font

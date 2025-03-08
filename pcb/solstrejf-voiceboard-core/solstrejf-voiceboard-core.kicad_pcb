@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "Solstrejf Voice Board")
-		(date "2025-03-02")
+		(date "2025-03-08")
 		(rev "1.1")
 		(company "Kromftronics")
 	)
@@ -8622,7 +8622,7 @@
 				)
 			)
 		)
-		(property "Value" "330n"
+		(property "Value" "100n"
 			(at 2.54 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -17238,7 +17238,7 @@
 				)
 			)
 		)
-		(property "Value" "330n"
+		(property "Value" "100n"
 			(at 2.54 0 0)
 			(layer "F.SilkS")
 			(hide yes)
