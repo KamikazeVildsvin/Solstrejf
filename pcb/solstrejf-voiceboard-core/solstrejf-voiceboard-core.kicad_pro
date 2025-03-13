@@ -510,10 +510,18 @@
       "-5V": [
         "Power"
       ],
-      "/VOICEBOARD_POWER/+15V": "Power",
-      "/VOICEBOARD_POWER/+5V": "Power",
-      "/VOICEBOARD_POWER/-15V": "Power",
-      "/VOICEBOARD_POWER/-5V": "Power",
+      "/VOICEBOARD_POWER/+15V": [
+        "Power"
+      ],
+      "/VOICEBOARD_POWER/+5V": [
+        "Power"
+      ],
+      "/VOICEBOARD_POWER/-15V": [
+        "Power"
+      ],
+      "/VOICEBOARD_POWER/-5V": [
+        "Power"
+      ],
       "GND": [
         "Power"
       ],
