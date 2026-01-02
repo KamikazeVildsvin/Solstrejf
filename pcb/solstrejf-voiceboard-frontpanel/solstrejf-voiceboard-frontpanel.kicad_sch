@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Solstrejf Voice Board Front Panel")
-		(date "2025-11-15")
-		(rev "2.0")
+		(date "2025-12-12")
+		(rev "2.1")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
@@ -4449,7 +4449,7 @@
 				)
 			)
 		)
-		(property "Value" "91k"
+		(property "Value" "56k"
 			(at 203.2 46.99 90)
 			(effects
 				(font
@@ -7410,28 +7410,28 @@
 			)
 		)
 		(pin "6"
-			(uuid "5dd94c12-81a8-4d96-bb4e-2033c70cff08")
+			(uuid "5dd94c12-81a8-4d96-bb4e-2033c70cff09")
 		)
 		(pin "7"
-			(uuid "258654f1-706b-4c7c-9366-756c0434e8b4")
+			(uuid "258654f1-706b-4c7c-9366-756c0434e8b5")
 		)
 		(pin "8"
-			(uuid "c66da1c3-877b-4fc2-abad-0a7929860402")
+			(uuid "c66da1c3-877b-4fc2-abad-0a7929860403")
 		)
 		(pin "4"
-			(uuid "461e6c23-7a22-42b7-b003-62fef8cc2a35")
+			(uuid "461e6c23-7a22-42b7-b003-62fef8cc2a36")
 		)
 		(pin "1"
-			(uuid "d3b316f7-c72e-419e-8734-d310226d6e4c")
+			(uuid "d3b316f7-c72e-419e-8734-d310226d6e4d")
 		)
 		(pin "2"
-			(uuid "9a8be89a-a649-44c5-a841-676c81dbe143")
+			(uuid "9a8be89a-a649-44c5-a841-676c81dbe144")
 		)
 		(pin "5"
-			(uuid "bd110243-c3dc-421b-9392-d5a5a5dd2a88")
+			(uuid "bd110243-c3dc-421b-9392-d5a5a5dd2a89")
 		)
 		(pin "3"
-			(uuid "3af081cc-711b-47e6-a07f-d1573fc3fdff")
+			(uuid "3af081cc-711b-47e6-a07f-d1573fc3fe00")
 		)
 		(instances
 			(project ""
@@ -7997,28 +7997,28 @@
 			)
 		)
 		(pin "6"
-			(uuid "5dd94c12-81a8-4d96-bb4e-2033c70cff08")
+			(uuid "5dd94c12-81a8-4d96-bb4e-2033c70cff0a")
 		)
 		(pin "7"
-			(uuid "258654f1-706b-4c7c-9366-756c0434e8b4")
+			(uuid "258654f1-706b-4c7c-9366-756c0434e8b6")
 		)
 		(pin "8"
-			(uuid "c66da1c3-877b-4fc2-abad-0a7929860402")
+			(uuid "c66da1c3-877b-4fc2-abad-0a7929860404")
 		)
 		(pin "4"
-			(uuid "461e6c23-7a22-42b7-b003-62fef8cc2a35")
+			(uuid "461e6c23-7a22-42b7-b003-62fef8cc2a37")
 		)
 		(pin "1"
-			(uuid "d3b316f7-c72e-419e-8734-d310226d6e4c")
+			(uuid "d3b316f7-c72e-419e-8734-d310226d6e4e")
 		)
 		(pin "2"
-			(uuid "9a8be89a-a649-44c5-a841-676c81dbe143")
+			(uuid "9a8be89a-a649-44c5-a841-676c81dbe145")
 		)
 		(pin "5"
-			(uuid "bd110243-c3dc-421b-9392-d5a5a5dd2a88")
+			(uuid "bd110243-c3dc-421b-9392-d5a5a5dd2a8a")
 		)
 		(pin "3"
-			(uuid "3af081cc-711b-47e6-a07f-d1573fc3fdff")
+			(uuid "3af081cc-711b-47e6-a07f-d1573fc3fe01")
 		)
 		(instances
 			(project ""
