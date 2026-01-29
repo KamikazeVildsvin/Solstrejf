@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Solstrejf Voice Board Front Panel")
-		(date "2025-12-12")
-		(rev "2.1")
+		(date "2026-01-29")
+		(rev "2.2")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
@@ -7597,7 +7597,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 242.57 49.53 90)
 			(effects
 				(font
